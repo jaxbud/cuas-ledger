@@ -1,0 +1,42 @@
+[
+ {
+  "id": "jiatf401-cso",
+  "title": "JIATF-401 Commercial Solutions Opening (CSO) W912CH-26-S-X001",
+  "agency": "JIATF-401 via Army Contracting Command\u2013Detroit Arsenal",
+  "type": "Commercial Solutions Opening: rolling solution briefs, then presentations and proposals; fixed-price awards",
+  "deadline": "Open through 31 Dec 2028 (rolling; specific calls have their own suspense dates)",
+  "amount": "Fixed-price contracts or agreements; sizes vary (pilots to production)",
+  "status": "open",
+  "fit": "high",
+  "fit_note": "The main front door to JIATF-401. Three capability management offices: Mobile (rapidly transportable C-UAS for border defense, special events and emerging needs), Fixed Site (tied to the marketplace) and C2. A canister-launched interceptor with onboard sensing belongs in Mobile. Questions go to the published CSO mailbox. Foreign firms may submit or team with US firms.",
+  "contact": "JIATF401CSO@army.mil",
+  "url": "https://sam.gov/workspace/contract/opp/e558464e75a24a19acfd89d1eb1144e6/view",
+  "source": "https://defensescoop.com/2026/02/27/jiatf-401-commercial-solutions-opening-cso-counter-uas/"
+ },
+ {
+  "id": "navy-thunderdome",
+  "title": "NAWCAD Thunderdome \u2014 low-cost C-UAS interceptors (annual)",
+  "agency": "Naval Air Warfare Center Aircraft Division, UX-24 squadron, NAWC Webster Outlying Field (NISE-sponsored)",
+  "type": "RFI and field event",
+  "deadline": "2026 event held 17\u201321 Aug (responses closed 17 Jul 2026); watch for 2027",
+  "amount": "Test and demo access",
+  "status": "recurring",
+  "fit": "high",
+  "fit_note": "2026 requirements: interceptor under 18 lb, at least 85 knots, under $25,000 to produce, and non-kinetic during field testing. UM's tethered-rope capture is non-kinetic and its $25K airframe placeholder sits at the cost cap. The cleanest published spec match to UM so far.",
+  "url": "https://samsearch.co/gov-explore/federal/thunderdome-2026-low-cost-interceptors-for-counter-uas/NAWCAD-SN-26-Thunderdome",
+  "source": "https://app.govly.com/public/opportunities/16807599"
+ },
+ {
+  "id": "diu-class-act-maritime",
+  "title": "DIU Bridge Program CLASS ACT \u2014 maritime counter-unmanned systems (HQ084526SC002)",
+  "agency": "Defense Innovation Unit",
+  "type": "Prototype OT with possible noncompetitive production; brings uncleared firms into the cleared base",
+  "deadline": "Closes 13 Oct 2026, 11:59:59 PM ET",
+  "amount": "Prototype OT",
+  "status": "open",
+  "fit": "low",
+  "fit_note": "Requires TRL 7+ and Top Secret work. UM is too early, but the program is a route to a facility clearance for a later cycle.",
+  "url": "https://www.bwcoconsulting.com/fod/diu-class-act-maritime-counter-uxs",
+  "source": "https://www.defensedaily.com/diu-seeks-commercial-tech-private-capital-for-counter-uxs-in-maritime-environment/unmanned-systems/"
+ }
+]

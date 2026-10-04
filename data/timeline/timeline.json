@@ -1,0 +1,240 @@
+[
+ {
+  "date": "2016-10",
+  "title": "ISIS weaponizes $2,000 quadcopters in Mosul",
+  "kind": "threat",
+  "detail": "SOCOM commander called armed ISIS drones the most daunting problem of 2016; 70+ drones over 24 hours nearly stalled the Mosul offensive. Triggered the first US joint urgent C-UAS buys.",
+  "source": "https://defensenews.com/digital-show-dailies/sofic/2017/05/16/socom-commander-armed-isis-drones-were-2016s-most-daunting-problem"
+ },
+ {
+  "date": "2017-02",
+  "title": "Army JUON buys SRC LIDS ($65M)",
+  "kind": "contract",
+  "detail": "First large US counter-drone system of systems; the root of FS-LIDS/E-LIDS.",
+  "source": "https://www.militaryaerospace.com/uncrewed/article/16726389/army-chooses-src-to-design-and-build-counter-drone-systems-to-destroy-or-disable-enemy-uavs"
+ },
+ {
+  "date": "2018-03-01",
+  "title": "Navy HELIOS laser ($150M) to Lockheed",
+  "kind": "contract",
+  "detail": "First US Navy ship-integrated HEL with a counter-UAS mission.",
+  "source": "https://news.lockheedmartin.com/2018-03-01-Lockheed-Martin-Receives-150-Million-Contract-to-Deliver-Integrated-High-Energy-Laser-Weapon-Systems-to-U-S-Navy"
+ },
+ {
+  "date": "2018-10-05",
+  "title": "Preventing Emerging Threats Act (6 U.S.C. 124n)",
+  "kind": "policy",
+  "detail": "Gave DHS and DOJ authority to detect, disrupt, seize and destroy threatening drones notwithstanding wiretap and aircraft-sabotage laws.",
+  "source": "https://public-inspection.federalregister.gov/2026-13609.pdf"
+ },
+ {
+  "date": "2018-12-19",
+  "title": "Gatwick shutdown",
+  "kind": "threat",
+  "detail": "~1,000 flights and 140,000 passengers disrupted by drone sightings; became the global case study for airport C-UAS.",
+  "source": "https://en.wikipedia.org/wiki/Gatwick_Airport_drone_incident"
+ },
+ {
+  "date": "2019-11",
+  "title": "Army named DoD Executive Agent for C-sUAS; JCO stood up (Feb 2020)",
+  "kind": "policy",
+  "detail": "Created the Joint Counter-small UAS Office to unify doctrine, requirements, materiel and training.",
+  "source": "https://media.defense.gov/2021/Jan/07/2002561080/-1/-1/0/DEPARTMENT-OF-DEFENSE-COUNTER-SMALL-UNMANNED-AIRCRAFT-SYSTEMS-STRATEGY.pdf"
+ },
+ {
+  "date": "2020-06-25",
+  "title": "JCO picks interim C-sUAS systems",
+  "kind": "policy",
+  "detail": "~40 fielded systems cut to an approved set: FS-LIDS, NINJA, CORIAN, L-MADIS, Bal Chatri, Drone Buster, Smart Shooter, FAAD-C2.",
+  "source": "https://www.army.mil/article/236713/army_announces_selection_of_interim_c_suas_systems"
+ },
+ {
+  "date": "2021-01-07",
+  "title": "DoD Counter-sUAS Strategy published",
+  "kind": "policy",
+  "detail": "First department-wide C-sUAS strategy.",
+  "source": "https://media.defense.gov/2021/Jan/07/2002561080/-1/-1/0/DEPARTMENT-OF-DEFENSE-COUNTER-SMALL-UNMANNED-AIRCRAFT-SYSTEMS-STRATEGY.pdf"
+ },
+ {
+  "date": "2022-01-20",
+  "title": "Anduril wins SOCOM CUxS integrator IDIQ ($967M \u2192 $1.92B)",
+  "kind": "contract",
+  "detail": "A venture-backed newcomer becomes SOCOM's counter-unmanned systems integrator.",
+  "source": "https://news.clearancejobs.com/2022/01/20/anduril-receives-967-million-idiq-contract-for-counter-unmanned-systems/"
+ },
+ {
+  "date": "2022-02-24",
+  "title": "Russia invades Ukraine \u2014 mass drone war begins",
+  "kind": "threat",
+  "detail": "Shahed/Geran campaigns rose from ~200 to ~1,100 launches per week (Sept 2024 to Mar 2025); interceptor drones emerged as the cost-effective answer.",
+  "source": "https://www.csis.org/analysis/drone-saturation-russias-shahed-campaign"
+ },
+ {
+  "date": "2023-01-23",
+  "title": "Army picks Epirus Leonidas HPM ($66.1M)",
+  "kind": "contract",
+  "detail": "High-power microwave beat six rivals for IFPC-HPM.",
+  "source": "https://www.epirusinc.com/news-item/us-army-awards-epirus-661m-contract-for-leonidas-directed-energy-system"
+ },
+ {
+  "date": "2023-12-06",
+  "title": "17 days of drone incursions over Langley AFB",
+  "kind": "threat",
+  "detail": "Some F-22s relocated; the source was never identified \u2014 the case that put homeland base defense on the agenda.",
+  "source": "https://www.twz.com/air/mysterious-drones-swarmed-langley-afb-for-weeks%20"
+ },
+ {
+  "date": "2024-01-28",
+  "title": "Tower 22: drone kills 3 US soldiers in Jordan",
+  "kind": "threat",
+  "detail": "An Iran-backed militia one-way drone arrived alongside a returning US drone and was not engaged; 47 injured.",
+  "source": "https://en.wikipedia.org/wiki/Tower_22_drone_attack"
+ },
+ {
+  "date": "2024-09-27",
+  "title": "Replicator 2 = counter-small UAS",
+  "kind": "policy",
+  "detail": "SecDef Austin made installation C-sUAS the second Replicator line of effort.",
+  "source": "https://news.usni.org/2024/09/30/stopping-lethal-attack-drones-is-focus-of-replicator-initiative-2-says-secdef-austin"
+ },
+ {
+  "date": "2025-03-07",
+  "title": "USMC I-CsUAS program of record to Anduril ($642M)",
+  "kind": "contract",
+  "detail": "10-year installation C-UAS for Marine bases worldwide.",
+  "source": "https://defensescoop.com/2025/03/13/marine-corps-anduril-contract-defend-installations-small-uas-drones/"
+ },
+ {
+  "date": "2025-05-07",
+  "title": "India\u2013Pakistan drone battle (Operation Sindoor)",
+  "kind": "threat",
+  "detail": "Led to India's $231.6M emergency C-UAS procurement.",
+  "source": "https://www.defensenews.com/global/asia-pacific/2025/06/30/india-buys-drones-air-defense-weapons-following-aerial-pakistan-fight/"
+ },
+ {
+  "date": "2025-06-01",
+  "title": "Operation Spiderweb",
+  "kind": "threat",
+  "detail": "Ukraine launched 117 FPV drones from trucks inside Russia and hit up to 41 strategic bombers \u2014 the template for an attack on US bases from inside the perimeter.",
+  "source": "https://en.wikipedia.org/wiki/Operation_Spiderweb"
+ },
+ {
+  "date": "2025-06-06",
+  "title": "EO 14305 'Restoring American Airspace Sovereignty'",
+  "kind": "policy",
+  "detail": "Created the Federal Task Force to Restore American Airspace Sovereignty (chaired by the NSA) and directed the FBI C-UAS training center.",
+  "source": "https://www.whitehouse.gov/presidential-actions/2025/06/restoring-american-airspace-sovereignty/"
+ },
+ {
+  "date": "2025-07-04",
+  "title": "OBBBA funds $500M FEMA C-UAS grants",
+  "kind": "budget",
+  "detail": "One Big Beautiful Bill Act Sec. 90005(a): $500M over two years to SLTT.",
+  "source": "https://www.fema.gov/grants/preparedness/counter-unmanned-aircraft-systems-grant-program"
+ },
+ {
+  "date": "2025-08-28",
+  "title": "Hegseth creates JIATF-401 (replaces JCO)",
+  "kind": "policy",
+  "detail": "Army-led task force with authority to approve up to $50M per initiative; reports to the DepSecWar.",
+  "source": "https://defensescoop.com/2025/08/28/hegseth-army-new-counter-drone-task-force-jiatf-401/"
+ },
+ {
+  "date": "2025-09-10",
+  "title": "Russian drones enter Poland; NATO shoots them down",
+  "kind": "threat",
+  "detail": "~23 drones; Article 4 invoked; NATO launched Eastern Sentry. Denmark airport and air-base incursions followed in late September.",
+  "source": "https://en.wikipedia.org/wiki/2025_Russian_drone_incursion_into_Poland"
+ },
+ {
+  "date": "2025-09-26",
+  "title": "Coyote $5.04B contract to Raytheon",
+  "kind": "contract",
+  "detail": "Largest LIDS award to date (through 2033).",
+  "source": "https://news.clearancejobs.com/2025/09/29/raytheon-lands-5b-army-contract-for-coyote-missile-defense-systems/"
+ },
+ {
+  "date": "2025-12-18",
+  "title": "SAFER SKIES Act enacted (FY26 NDAA)",
+  "kind": "policy",
+  "detail": "C-UAS authority extended to trained state and local police and corrections.",
+  "source": "https://www.woodsrogers.com/insights/publications/safer-skies-act-expands-domestic-counter-drone-authority"
+ },
+ {
+  "date": "2025-12-30",
+  "title": "FEMA awards $250M to World Cup states + NCR",
+  "kind": "budget",
+  "detail": "Fastest non-disaster grant in FEMA history.",
+  "source": "https://www.fema.gov/press-release/20251230/historic-announcement-fema-rapidly-awards-250-million-secure-us-skies-ahead"
+ },
+ {
+  "date": "2026-01-13",
+  "title": "First Replicator 2 buy: Fortem DroneHunter (net capture)",
+  "kind": "contract",
+  "detail": "Picked because capture minimizes collateral damage at home.",
+  "source": "https://insideunmannedsystems.com/pentagon-task-force-picks-fortem-dronehunter-for-first-replicator-2-purchase/"
+ },
+ {
+  "date": "2026-02-24",
+  "title": "C-UAS Marketplace reaches IOC",
+  "kind": "policy",
+  "detail": "1,600+ items listed by March; public cuas.mil launch in August.",
+  "source": "https://static.carahsoft.com/concrete/files/5617/9017/3682/JIATF-401_C-UAS_Marketplace.pdf"
+ },
+ {
+  "date": "2026-02-28",
+  "title": "Operation Epic Fury (US/Israel vs Iran)",
+  "kind": "threat",
+  "detail": "Army bought 13,000 Merops in 8 days and shipped 10,000 to the Middle East; NORTHCOM jammed a drone over a 'strategic' US base in the first hours.",
+  "source": "https://defensescoop.com/2026/03/24/drone-incursions-strategic-us-military-base-jamming/"
+ },
+ {
+  "date": "2026-03-14",
+  "title": "Anduril $20B Army C-UAS enterprise vehicle",
+  "kind": "contract",
+  "detail": "Largest C-UAS contract vehicle ever published; Lattice designated as the C-UAS C2.",
+  "source": "https://defensescoop.com/2026/03/14/anduril-20-billion-dollar-army-contract/"
+ },
+ {
+  "date": "2026-06-11",
+  "title": "FIFA World Cup 2026 begins (to July 19)",
+  "kind": "threat",
+  "detail": "300+ drones taken down across venues; FAA TFRs of 3 nm / 3,000 ft.",
+  "source": "https://fedscoop.com/dhs-fbi-counter-drone-training-center-hearing/"
+ },
+ {
+  "date": "2026-07-01",
+  "title": "SLTT C-UAS rule effective; DRPM-UxS created",
+  "kind": "policy",
+  "detail": "DOJ/DHS IFR expects an RF-only first technology list; Hegseth creates the Direct Reporting Portfolio Manager for Unmanned Systems over JIATF-401 and DAWG.",
+  "source": "https://public-inspection.federalregister.gov/2026-13609.pdf"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "DHS $1.5B department-wide C-UAS IDIQ",
+  "kind": "contract",
+  "detail": "12 companies across products and services tracks.",
+  "source": "https://insideunmannedsystems.com/dhs-awards-1-5-billion-counter-uas-contract-to-12-companies/"
+ },
+ {
+  "date": "2026-09-29",
+  "title": "JIATF-401 $7B Marketplace IDIQ wave",
+  "kind": "contract",
+  "detail": "$4.15B to 10 vendors; >$5B awarded in total; more by end of October 2026.",
+  "source": "https://www.army.mil/article/295771/jiatf_401_advances_domestic_shield_with_counter_uas_contract_awards"
+ },
+ {
+  "date": "2026-02-11",
+  "title": "Counter-drone laser triggers El Paso airspace shutdown",
+  "kind": "policy",
+  "detail": "A laser fired near Fort Bliss without FAA coordination closed El Paso airspace for 7+ hours; on 27 Feb a laser downed a CBP drone. Domestic directed energy meets the FAA.",
+  "source": "https://www.npr.org/2026/02/27/g-s1-111794/lawmakers-say-us-military-used-laser-to-take-down-border-protection-drone"
+ },
+ {
+  "date": "2026-08-27",
+  "title": "First AMP-HEL laser engagements of cartel drones on the border",
+  "kind": "threat",
+  "detail": "JTF-SB engaged three cartel-linked drones with the AMP-HEL laser. DoW reported 378 cartel drones detected from Aug 22 to late Sep 2026 (via Fox News).",
+  "source": "https://www.dvidshub.net/news/573423/joint-task-force-southern-border-uses-high-energy-laser-system-mitigate-cartel-linked-drone-threats"
+ }
+]

@@ -1,0 +1,169 @@
+[
+ {
+  "id": "hegseth-130i-guidance-2025-12-08",
+  "date": "2025-12-08",
+  "speaker": "Pete Hegseth",
+  "role": "Secretary of War",
+  "org": "Department of War",
+  "venue": "Signed C-UAS guidance (announced by JIATF-401, Jan 2026)",
+  "quote": "Countering drones does not start and stop at the fence line (BG Ross, describing the guidance)",
+  "points": [
+   "Consolidates Title 10 / 10 U.S.C. 130i C-UAS policy; commanders can act beyond installation fence lines with coordination.",
+   "Unauthorized drone surveillance of designated facilities is now explicitly a threat, so engagement is allowed before a perimeter breach.",
+   "Service secretaries can designate which facilities are 'covered'.",
+   "Allows active and passive sensing and electromagnetic defeat; commanders must coordinate with the FAA.",
+   "Guillot: the military sees 1-2 incursions per day."
+  ],
+  "um_relevance": "More covered facilities plus engagement outside the fence means more sites need a mobile, forward effector. A pursuing interceptor that carries its own sensors suits defense beyond the perimeter.",
+  "source": "https://breakingdefense.com/2026/01/pentagon-expands-task-forces-counter-drone-authorities-handing-commanders-more-flexibility/",
+  "source_name": "Breaking Defense",
+  "topic": "authorities"
+ },
+ {
+  "id": "dodig-2026-045",
+  "date": "2026-01-20",
+  "speaker": "DoD Office of Inspector General",
+  "role": "Oversight",
+  "org": "DoD IG",
+  "venue": "Report DODIG-2026-045",
+  "quote": "DOD officials told us that training is not covered. Therefore, installation officials cannot use C-UAS capabilities to prevent unmanned aerial system activity.",
+  "points": [
+   "Major US installations lack C-UAS despite policy mandates; 20+ conflicting DoD C-UAS policies.",
+   "Luke AFB (trains 75% of the world's F-35 pilots), Air Force Plant 42, and SUPSHIP Newport News flagged as uncovered or ambiguous.",
+   "Recommends JIATF-401 consolidate policy, roles, covered-facility requirements and the 130i approval process."
+  ],
+  "um_relevance": "Documented coverage gaps at high-value sites create near-term demand; procurement follows once facilities are designated.",
+  "source": "https://www.defensenews.com/unmanned/2026/01/28/bureaucratic-confusion-leaves-dod-sites-exposed-to-drones-dod-ig-says/",
+  "source_name": "Defense News",
+  "topic": "oversight"
+ },
+ {
+  "id": "cbo-options-csuas-2026-07",
+  "date": "2026-07-09",
+  "speaker": "Congressional Budget Office",
+  "role": "Analysis for Congress",
+  "org": "CBO",
+  "venue": "Report: Options to Counter Small Unmanned Aircraft Systems",
+  "quote": "No single system would provide full protection (paraphrase of CBO's layered-defense conclusion)",
+  "points": [
+   "~$74M to equip one representative installation with layered defense, plus ~$5M/yr to support it.",
+   "Protecting 100 bases: up to $7.4B upfront plus ~$500M/yr; DoD tracks 824 installations.",
+   "Defeat methods listed: entangling, impeding communications, or destroying with projectiles or directed energy.",
+   "Systems may need full replacement every 4-5 years; 135 vendors answered DoD demo requests."
+  ],
+  "um_relevance": "CBO names entanglement as a defeat category alongside kinetic and DE. A $74M per-base layered architecture leaves room for a low-cost, reusable capture interceptor layer.",
+  "source": "https://ideas.repec.org/p/cbo/report/62262.html",
+  "source_name": "CBO (via RePEc listing)",
+  "source2": "https://smallwarsjournal.com/2026/07/15/cbo-counter-drone-defense-could-cost-7-4-billion/",
+  "topic": "cost"
+ },
+ {
+  "id": "driscoll-10k-mideast-2026-03",
+  "date": "2026-03-12",
+  "speaker": "Dan Driscoll",
+  "role": "Secretary of the Army",
+  "org": "U.S. Army",
+  "venue": "Press remarks / Bloomberg interview",
+  "quote": "They're about $15,000 a piece right now. We think as they scale, they'll get less than [$10,000]",
+  "points": [
+   "10,000 Merops interceptors shipped to the Middle East within five days of the Feb 28, 2026 strikes on Iran.",
+   "Acquisition decision cut from a '16-step' process to an immediate group decision.",
+   "With larger orders, interceptors could fall to $3,000-5,000 each (Bloomberg)."
+  ],
+  "um_relevance": "The price target for interceptor drones is now set publicly at $3-10K. UM's airframe ($25K placeholder) only wins on cost if recovery and reuse are proven \u2014 this is the benchmark investors will use.",
+  "source": "https://www.twz.com/land/cheap-interceptor-drones-proven-in-ukraine-protected-u-s-troops-against-iranian-shaheds",
+  "source_name": "The War Zone",
+  "topic": "interceptors"
+ },
+ {
+  "id": "mullin-patel-hearing-2026-06-25",
+  "date": "2026-06-25",
+  "speaker": "Markwayne Mullin; Kash Patel; Troy Edgar",
+  "role": "DHS Secretary; FBI Director; DHS Deputy Secretary",
+  "org": "DHS / FBI",
+  "venue": "House Appropriations Homeland Security Subcommittee, FY27 budget",
+  "quote": "We have more people asking to get into the school than he has space",
+  "points": [
+   "300+ drones taken down across World Cup venues; 50+ seized in Dallas; 60 systems seized and 52 operators ticketed around Miami.",
+   "Only 8 of 22 DHS components run C-UAS, with differing approaches; DHS weighing a joint C-UAS task force.",
+   "The FBI National Counter-UAS Training Center (Huntsville) is the throughput bottleneck for SLTT certification."
+  ],
+  "um_relevance": "Homeland demand is real and operational; training and certification capacity, not hardware, is the pacing item for state and local mitigation.",
+  "source": "https://fedscoop.com/dhs-fbi-counter-drone-training-center-hearing/",
+  "source_name": "FedScoop",
+  "topic": "homeland"
+ },
+ {
+  "id": "patel-ufc-freedom250-2026-06",
+  "date": "2026-06-16",
+  "speaker": "Kash Patel",
+  "role": "Director, FBI",
+  "org": "FBI",
+  "venue": "Public announcement",
+  "quote": "(FBI) prevented an attack targeting UFC Freedom 250 (paraphrase)",
+  "points": [
+   "Alleged plot: explosive-armed drones to panic the crowd, then snipers, then a second wave on the White House, at the June 14, 2026 South Lawn event.",
+   "5+ arrests across 12 FBI field offices (OH, MO, CA)."
+  ],
+  "um_relevance": "A domestic armed-drone plot against a mass gathering is the threat case for a capture effector cleared for populated areas.",
+  "source": "https://cagesidepress.com/2026/06/16/fbi-reveals-it-foiled-terror-plot-targeting-ufc-freedom-250/",
+  "source_name": "Cageside Press",
+  "topic": "homeland"
+ },
+ {
+  "id": "hegseth-jiatf401-2025-08-28",
+  "date": "2025-08-28",
+  "speaker": "Pete Hegseth",
+  "role": "Secretary of Defense/War",
+  "org": "DoD",
+  "venue": "Memo establishing JIATF-401",
+  "quote": "We're moving fast \u2014 cutting through bureaucracy, consolidating resources, and empowering this task force with the utmost authority to outpace our adversaries",
+  "points": [
+   "JIATF-401 replaced the Joint Counter-small UAS Office (JCO), stood up by Army Secretary Driscoll, with a 36-month initial mandate.",
+   "May approve up to $50M per initiative to accelerate C-UAS fielding."
+  ],
+  "um_relevance": "One accountable buyer now exists for C-sUAS, with its own money ($1.4B in the House FY27 bill) \u2014 UM's primary target customer.",
+  "source": "https://defensescoop.com/2025/08/28/hegseth-army-new-counter-drone-task-force-jiatf-401/",
+  "source_name": "DefenseScoop",
+  "source2": "https://media.defense.gov/2025/Aug/28/2003790021/-1/-1/0/ESTABLISHMENT-OF-JOINT-INTERAGENCY-TASK-FORCE-401.PDF",
+  "topic": "organization"
+ },
+ {
+  "id": "hapner-marketplace-2026-08",
+  "date": "2026-08-04",
+  "speaker": "Maj. Mike Hapner",
+  "role": "C-UAS Marketplace Lead, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "Marketplace launch (cuas.mil)",
+  "quote": "the right counter-UAS capabilities to the right users at the right time",
+  "points": [
+   "Public C-UAS Marketplace at cuas.mil launched Aug 2026 (IOC Feb 24-25, 2026; 1,600+ items by March).",
+   "Built by Kaizen Labs under a $15M OTA (May 2026).",
+   "Vendors apply and pass vetting \u2014 business verification, export-control review, product evaluation \u2014 before listing.",
+   "Buyers: services, COCOMs, federal interagency (DHS/DOJ/FBI), and pre-cleared allied MoDs. Australia bought off drones.mil about 10 days before Sept 24."
+  ],
+  "um_relevance": "The marketplace is the cheapest route to federal buyers for a startup. UM should start vendor vetting as soon as it has test data.",
+  "source": "https://www.defensenews.com/news/pentagon-congress/2026/08/10/pentagon-launches-online-marketplace-for-counter-uas-technology/",
+  "source_name": "Defense News",
+  "source2": "https://static.carahsoft.com/concrete/files/5617/9017/3682/JIATF-401_C-UAS_Marketplace.pdf",
+  "topic": "acquisition"
+ },
+ {
+  "id": "driscoll-lci-2026-06-23",
+  "date": "2026-06-23",
+  "speaker": "Dan Driscoll",
+  "role": "Secretary of the Army",
+  "org": "U.S. Army",
+  "venue": "Low-Cost Interceptor Industry Day, Crystal City",
+  "quote": "We're not going to do this physical process where we are whiteboarding deep in the Pentagon",
+  "points": [
+   "LCI target <$250K per interceptor, but 'if somebody came in with 280,000 [or] 420,000... we're going to buy it'.",
+   "Component white papers due July 6; 120-day development clock; live fire at White Sands in fall 2026.",
+   "Open architecture, government data and IP sharing among component providers."
+  ],
+  "um_relevance": "LCI is sized for Shahed-class jets and cruise missiles; UM's lower-cost Group 1-2 niche is underneath it. Watch for a Group 1-2 interceptor variant or component calls.",
+  "source": "https://breakingdefense.com/2026/06/army-launches-new-low-cost-interceptor-program-targets-fall-for-first-live-fire-demo/",
+  "source_name": "Breaking Defense",
+  "topic": "interceptors"
+ }
+]

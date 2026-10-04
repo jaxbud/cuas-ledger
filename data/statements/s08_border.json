@@ -1,0 +1,146 @@
+[
+ {
+  "id": "faa-el-paso-2026-02",
+  "date": "2026-02-11",
+  "speaker": "FAA / CBP / Army (incident); Reps. Larsen and colleagues",
+  "role": "Airspace regulator and congressional overseers",
+  "org": "FAA, DHS, DoW, U.S. House",
+  "venue": "El Paso airspace closures (Feb 11 and Feb 27, 2026)",
+  "quote": "Our heads are exploding over the news.",
+  "points": [
+   "A counter-drone laser fired near Fort Bliss without FAA coordination; the FAA closed El Paso airspace for more than seven hours (Feb 11).",
+   "On Feb 27 the military used a laser to shoot down a CBP drone and the FAA closed more airspace nearby.",
+   "The FAA lifted restrictions after the Army agreed to more safety testing."
+  ],
+  "um_relevance": "Even in a remote border setting, directed energy near civil airspace triggered FAA shutdowns and congressional anger. That reinforces the political value of a low-collateral physical capture effector, and the need to coordinate any airborne interceptor with the FAA.",
+  "source": "https://www.npr.org/2026/02/27/g-s1-111794/lawmakers-say-us-military-used-laser-to-take-down-border-protection-drone",
+  "source_name": "NPR",
+  "source2": "https://www.travelpulse.com/news/impacting-travel/faa-grounds-all-flights-at-texas-airport-due-to-special-security-reasons",
+  "topic": "authorities"
+ },
+ {
+  "id": "jtfsb-amphel-2026-08-27",
+  "date": "2026-08-27",
+  "speaker": "Maj. Gen. Curtis Taylor",
+  "role": "Commander, Joint Task Force-Southern Border",
+  "org": "JTF-SB / NORTHCOM",
+  "venue": "DVIDS release on AMP-HEL engagements",
+  "quote": "Cartel networks are increasingly employing unmanned aircraft systems to facilitate illicit human-smuggling and actively spy on our personnel",
+  "points": [
+   "First military use of AMP-HEL against cartel-linked drones on the border (3 engaged).",
+   "~8,000 service members deployed under JTF-SB since March 2025.",
+   "DoW figures reported by Fox News: 378 cartel drones detected from Aug 22 to late Sept 2026; 75 turned back, 15 engaged, 1 captured. The military also reported taking down about 100 suspected cartel drones in August."
+  ],
+  "um_relevance": "The border is a homeland C-UAS mission with real volume (hundreds of drones a month), remote terrain, and RF-evasive cartel tactics. A recoverable interceptor with its own sensors fits, and JTF-SB is a reachable operational customer through NORTHCOM and JIATF-401.",
+  "source": "https://www.dvidshub.net/news/573423/joint-task-force-southern-border-uses-high-energy-laser-system-mitigate-cartel-linked-drone-threats",
+  "source_name": "DVIDS",
+  "source2": "https://www.foxnews.com/politics/dhs-issues-stark-warning-300-hostile-cartel-drones-detected-southern-border",
+  "topic": "homeland"
+ },
+ {
+  "id": "jtfsb-cartel-2026-09-24",
+  "date": "2026-09-24",
+  "speaker": "Lt. Cmdr. Lauren Cole",
+  "role": "Deputy Director of Public Affairs, JTF-SB",
+  "org": "JTF-SB",
+  "venue": "DefenseScoop",
+  "quote": "These narco-terrorist cartels are evolving in how they use drones",
+  "points": [
+   "Cartels use drones for surveillance of US personnel, route reconnaissance and package transport, and keep changing tactics to avoid detection.",
+   "Systems in use include DroneBuster, Pitbull jammers, mobile and fixed detection, and kinetic and non-kinetic mitigation."
+  ],
+  "um_relevance": "Cartels adapting to avoid RF detection and jamming is the scenario where onboard radar and EO/IR matter.",
+  "source": "https://defensescoop.com/2026/09/24/cartel-drone-operations-southern-border-getting-more-creative-task-force-warns/",
+  "source_name": "DefenseScoop",
+  "topic": "homeland"
+ },
+ {
+  "id": "ross-ingraham-afcea-2026-09-29",
+  "date": "2026-09-29",
+  "speaker": "Brig. Gen. Matthew Ross; Brent Ingraham",
+  "role": "Director, JIATF-401; ASA(ALT)",
+  "org": "JIATF-401 / U.S. Army",
+  "venue": "JIATF-401 one-year mark (AFCEA Signal)",
+  "quote": "Countering against the threat of drones is both a warfighting and a homeland defense imperative.",
+  "points": [
+   "Ingraham: \"There isn't one answer to the drone threat.\"",
+   "Next: more IDIQ awards, allied marketplace access (Australia, Romania, 20+ countries), continued directed-energy pilots."
+  ],
+  "um_relevance": "One year in, JIATF-401 is widening both vendor and buyer pools. Late entrants can still get on, but only with data.",
+  "source": "https://www.afcea.org/signal-media/defense-operations/1-year-old-jiatf-401-awards-7-billion-counter-drone-contract",
+  "source_name": "AFCEA Signal",
+  "topic": "acquisition"
+ },
+ {
+  "id": "jiatf401-qrg-2026-09-08",
+  "date": "2026-09-08",
+  "speaker": "JIATF-401",
+  "role": "Publication",
+  "org": "JIATF-401",
+  "venue": "2026 Counter-Small UAS Quick Reference Guide",
+  "quote": "(QRG) 37 C-sUAS systems commonly found in the US services today, with a common technical baseline for sensors, C2 and intercept against Group 1\u20133",
+  "points": [
+   "Interceptors listed: Coyote, Anvil, Roadrunner, Bumblebee ('collision-interceptor'), Paladin, DroneHunter and others.",
+   "Fixed/semi-fixed: FS-LIDS, Pulsar, I-CsUAS, SUADS, CORIAN, EchoShield, KuRFS. Handheld: Dedrone Defender 2, DroneBuster IV, SMASH 2000L. DE: AMP-HEL, LOCUST, Leonidas.",
+   "C2: Lattice and FAAD C2 (MEDUSA also listed). The list is not all-inclusive."
+  ],
+  "um_relevance": "The QRG is the de facto government shelf, and DroneHunter (capture) and Bumblebee (collision) are already on it. Getting UM into a future edition is a concrete milestone after characterization.",
+  "source": "https://media.defense.gov/2026/Sep/08/2003992822/-1/-1/1/JOINT-INTERAGENCY-TASK-FORCE-401-2026-COUNTER-SMALL-UNMANNED-AIRCRAFT-SYSTEMS-QUICK-REFERENCE-GUIDE.PDF",
+  "source_name": "Department of War (PDF)",
+  "source2": "https://droneintelligence.ai/intelligence/us-military-counter-uas-systems",
+  "topic": "standards"
+ },
+ {
+  "id": "jiatf401-handbook-2026-07-08",
+  "date": "2026-07-08",
+  "speaker": "Brig. Gen. Matt Ross; Maj. Joe Amoroso",
+  "role": "Director, JIATF-401; Deputy Chief of Strategic Initiatives, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "Counter-drone handbook (dated 18 Jun 2026)",
+  "quote": "no single technology that resolves the drone threat",
+  "points": [
+   "Framework: the 'Four Ps' (person, platform, process, payload) and 'Five Ds' (detect, deny, disrupt, defeat, discipline).",
+   "Treats kinetic defeat as a last resort at home and notes that private individuals generally may not shoot down drones."
+  ],
+  "um_relevance": "Doctrine places physical defeat after detection, denial and disruption at home. UM's pitch should present capture as the controlled, low-collateral form of 'defeat' that applies where denial and disruption fail, such as against RF-silent drones.",
+  "source": "https://www.army.mil/article/293804/joint_interagency_task_force_401_publishes_counter_drone_handbook",
+  "source_name": "Army.mil",
+  "source2": "https://insideunmannedsystems.com/small-drones-big-problems-inside-jiatf-401s-new-first-principles-handbook-for-countering-drones/",
+  "topic": "doctrine"
+ },
+ {
+  "id": "ncutc-capacity-2026-08-03",
+  "date": "2026-08-03",
+  "speaker": "Mike Torphy; Matt Whitehead; Charles Werner",
+  "role": "FBI counter-UAS program lead; Director for emerging threats, White House NSC; Director, DroneResponders",
+  "org": "FBI / NSC / public-safety community",
+  "venue": "FedScoop: FBI drone training center demand outpaces capacity",
+  "quote": "Bomb squads are expensive and to be good, you need to do it a lot. This is definitely true of counter-UAS.",
+  "points": [
+   "World Cup 2026: 1,700 unauthorized drones detected, 700 seized, 400+ mitigation actions.",
+   "About 1,000 people trained over three years; 250 more mitigation officers planned by end of FY27.",
+   "Planning for the 2028 Los Angeles Olympics is already under way (Torphy)."
+  ],
+  "um_relevance": "State and local mitigation will stay scarce and certification-gated through 2028. Near-term homeland demand runs through federal operators (FBI, DHS, DoD) who already hold authority.",
+  "source": "https://fedscoop.com/fbi-drone-training-center-demand-outpaces-capacity/",
+  "source_name": "FedScoop",
+  "topic": "homeland"
+ },
+ {
+  "id": "lawfare-bottleneck-2026-06-23",
+  "date": "2026-06-23",
+  "speaker": "Cmdr. Philip W. Rohlfing, USN",
+  "role": "Author (analysis)",
+  "org": "Lawfare",
+  "venue": "'The Counter-UAS Certification Bottleneck'",
+  "quote": "(Analysis) About 60 SLTT personnel certified by June 2026 against a universe of 18,500+ agencies",
+  "points": [
+   "The FBI NCUTC is the sole certifying authority; the first class (Nov 2025) was about 12 officers.",
+   "Recommends federally accredited state-delivered training on a NIMS-like model."
+  ],
+  "um_relevance": "Confirms the SLTT market is years from scale. Treat it as a 2028+ upside, not a near-term revenue line.",
+  "source": "https://www.lawfaremedia.org/article/the-counter-uas-certification-bottleneck",
+  "source_name": "Lawfare",
+  "topic": "homeland"
+ }
+]

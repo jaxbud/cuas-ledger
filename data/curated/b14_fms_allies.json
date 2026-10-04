@@ -1,0 +1,136 @@
+[
+ {
+  "id": "uae-fslids-fms",
+  "date": "2026-03-23",
+  "country": "UAE (FMS)",
+  "customer": "United Arab Emirates (US FMS via DSCA, emergency determination)",
+  "vendor": "Raytheon (RTX); Northrop Grumman (FAAD C2)",
+  "system": "10 FS-LIDS packages: 240 Coyote Block 2, KuMRFS radars, launchers, EO/IR, FAAD C2",
+  "category": "layered-system",
+  "value_usd": 2100000000.0,
+  "value_kind": "estimate",
+  "value_original": "$2.10B (DSCA)",
+  "vehicle": "Foreign Military Sale (congressional review bypassed by emergency determination)",
+  "summary": "Approved during the Iran war after Iranian drone strikes on Emirati energy facilities.",
+  "source": "https://www.thedefensenews.com/US-Approves-21-Billion-FS-LIDS-Counter-Drone-System-Sale-to-UAE-Amid-Iran-Drone-Threat/",
+  "source_name": "The Defense News",
+  "source2": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/usa-to-supply-extensive-c-uas-systems-to-uae-following-iranian-drone-strikes-on-energy-facilities/",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "fms",
+   "gulf",
+   "lids",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "jordan-kumrfs-fms",
+  "date": "2026-02-27",
+  "country": "Jordan (FMS)",
+  "customer": "Jordan (US FMS via DSCA)",
+  "vendor": "RTX Missile Defense Technologies",
+  "system": "KuMRFS radars + C2, support",
+  "category": "detect",
+  "value_usd": 280000000.0,
+  "value_kind": "estimate",
+  "value_original": "$280M (DSCA)",
+  "vehicle": "Foreign Military Sale",
+  "summary": "360-degree C-UAS / C-RAM radar that cues Coyote, guns and lasers.",
+  "source": "https://thedefensepost.com/2026/02/27/us-ku-band-radar-jordan/",
+  "source_name": "The Defense Post",
+  "source2": "https://public-inspection.federalregister.gov/2026-07278.pdf",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "fms",
+   "middle-east",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "mbda-skywarden-export",
+  "date": "2025-11-21",
+  "country": "Middle East (unnamed)",
+  "customer": "Unnamed Middle Eastern country",
+  "vendor": "MBDA",
+  "system": "SKY WARDEN layered C-UAV: HELMA-P laser, jammers, HTK drone interceptors, Mistral 3",
+  "category": "layered-system",
+  "value_usd": null,
+  "value_kind": null,
+  "value_original": "Undisclosed",
+  "vehicle": "Export contract",
+  "summary": "First export of MBDA's layered C-UAS, which includes hit-to-kill drone interceptors. Sky Warden also won the Frontex C-UAS Prize 2025.",
+  "source": "https://euro-sd.com/2025/11/major-news/47956/mbda-first-sky-warden-export/",
+  "source_name": "European Security & Defence",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "gulf",
+   "interceptor",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "snc-ukraine-cuas-services",
+  "date": "2026-03",
+  "country": "Ukraine (US-funded)",
+  "customer": "DoD for Ukraine",
+  "vendor": "Sierra Nevada Corporation",
+  "system": "C-UAS field services and maintenance (1 year)",
+  "category": "services",
+  "value_usd": 14900000.0,
+  "value_kind": "firm",
+  "value_original": "$14.9M",
+  "vehicle": "Contract",
+  "summary": "Field service and maintenance support for C-UAS in Ukraine.",
+  "source": "https://www.defenseone.com/business/2026/03/counter-drone-sales/412504/",
+  "source_name": "Defense One",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "ukraine",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "canada-caci-cuas-ph2",
+  "date": "2025-07-07",
+  "country": "Canada",
+  "customer": "Department of National Defence (for NATO brigade in Latvia)",
+  "vendor": "CACI",
+  "system": "Vehicle-integrated C-UAS on light armoured tactical vehicles + 10 yr support",
+  "category": "layered-system",
+  "value_usd": 123000000.0,
+  "value_kind": "firm",
+  "value_original": "C$169M (two contracts)",
+  "vehicle": "Contracts (Phase 2)",
+  "summary": "First integrated systems due autumn 2026, FOC early 2028. Phase 1 (Jan 2024) bought dismounted and fixed-site C-UAS. A further CanadaBuys notice for domestic establishments closed 11 Aug 2026.",
+  "source": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/canada-awards-phase-two-c-uas-contracts-to-caci/",
+  "source_name": "Unmanned Airspace",
+  "source2": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/WS5725677621-Doc5775134845",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "americas",
+   "history"
+  ]
+ },
+ {
+  "id": "lithuania-2026-cuas-budget",
+  "date": "2026-01",
+  "country": "Lithuania",
+  "customer": "Lithuanian MoD",
+  "vendor": "Multiple (Saab MSHORAD, Kongsberg NASAMS, Perennial Merops)",
+  "system": "\u20ac145M earmarked for integrated air defence against drones in the 2026 budget",
+  "category": "layered-system",
+  "value_usd": 158000000.0,
+  "value_kind": "estimate",
+  "value_original": "\u20ac145M (2026 budget line)",
+  "vehicle": "Budget allocation",
+  "summary": "About 25% of Lithuania's 2026 procurement goes to air defence and surveillance; the Baltic states are weighing joint C-UAS procurement with a preference for European products.",
+  "source": "https://investlithuania.com/blog/drone-and-counter-drone-technologies-in-lithuania/",
+  "source_name": "Invest Lithuania",
+  "source2": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/lithuania-urgently-bolsters-air-defence-c-uas-capabilities/",
+  "confidence": "ESTIMATE",
+  "tags": [
+   "europe",
+   "last-12-months"
+  ]
+ }
+]

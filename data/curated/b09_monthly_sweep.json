@@ -1,0 +1,135 @@
+[
+ {
+  "id": "jiatf401-epic-fury-600m",
+  "date": "2026-04-06",
+  "country": "USA",
+  "customer": "JIATF-401 for CENTCOM, ACC, AFGSC, SDDC/Army Transportation; World Cup; Domestic Shield",
+  "vendor": "Multiple (not disclosed)",
+  "system": "Non-kinetic mitigation, sensing, mobile C-UAS",
+  "category": "layered-system",
+  "value_usd": 608000000.0,
+  "value_kind": "obligated",
+  "value_original": "$600M+ committed: $350M Epic Fury (first month), $100M World Cup (11 cities, 9 states, via Army National Guard), $158M Domestic Shield",
+  "vehicle": "Rapid commitments across existing vehicles",
+  "summary": "Record-pace JIATF-401 commitments after the Iran war began; Army Guard units deployed C-UAS at World Cup stadiums and fan zones.",
+  "source": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260406-dodnews02.htm",
+  "source_name": "DoD News via GlobalSecurity",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "jiatf-401",
+   "world-cup",
+   "domestic-shield",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "droneshield-eu-49m",
+  "date": "2025-12-16",
+  "country": "Europe (unnamed military)",
+  "customer": "European military via in-region reseller",
+  "vendor": "DroneShield",
+  "system": "Handheld C-UAS, accessories, software updates",
+  "category": "rf-soft-kill",
+  "value_usd": null,
+  "value_kind": "firm",
+  "value_original": "A$49.6M (ASX)",
+  "vehicle": "Contract via reseller",
+  "summary": "Deliveries and cash in Q1 2026.",
+  "source": "https://soldiersystems.net/2025/12/17/droneshield-secures-49-6m-european-military-contract/",
+  "source_name": "Soldier Systems",
+  "source2": "https://announcements.asx.com.au/asxpdf/20251216/pdf/06tcx4gn687p6s.pdf",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "europe",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "droneshield-western-8m",
+  "date": "2025-12-30",
+  "country": "Western military (unnamed)",
+  "customer": "Western military via in-country reseller",
+  "vendor": "DroneShield",
+  "system": "Handheld C-UAS, spares, software updates",
+  "category": "rf-soft-kill",
+  "value_usd": null,
+  "value_kind": "firm",
+  "value_original": "A$8.2M (ASX)",
+  "vehicle": "Contract via reseller",
+  "summary": "Follow-on handheld order.",
+  "source": "https://soldiersystems.net/2026/01/01/droneshield-secures-8-2-million-contract-supporting-western-military-operations/",
+  "source_name": "Soldier Systems",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "xtech-counterstrike-2025",
+  "date": "2025-11-24",
+  "country": "USA (Army in Europe)",
+  "customer": "U.S. Army xTech with 52nd ADA Bde / 10th AAMDC (Project Flytrap 4.5, Putlos, Germany)",
+  "vendor": "AG3 Labs; Armaments Research Company; MatrixSpace; Mountain Horse Solutions (w/ S3Werx, Argus)",
+  "system": "xTechCounterStrike winners \u2014 sensing and defeat",
+  "category": "rnd",
+  "value_usd": 1400000.0,
+  "value_kind": "firm",
+  "value_original": "$350K each + placement in the Army G-TEAD Marketplace",
+  "vehicle": "Prize competition",
+  "summary": "Fifteen companies selected; four winners. The prize includes G-TEAD Marketplace listing for US and NATO units \u2014 a direct path to orders.",
+  "source": "https://euro-sd.com/2025/11/news/land/47950/matrixspace-wins-c-uas-contest/",
+  "source_name": "European Security & Defence",
+  "source2": "https://entrepreneurship.msu.edu/news/ag3-xtechcounter-strike",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "prize",
+   "pathway",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "anduril-diu-99m-2021",
+  "date": "2021-07-27",
+  "country": "USA",
+  "customer": "Defense Innovation Unit (for Army, Navy, USAF, USMC)",
+  "vendor": "Anduril Industries",
+  "system": "C-UAS: radar, EO/IR, interceptors (Anvil), RF detect/defeat \u2014 installation protection",
+  "category": "layered-system",
+  "value_usd": 99000000.0,
+  "value_kind": "ceiling",
+  "value_original": "up to $99M, 5-yr",
+  "vehicle": "DIU OT production agreement",
+  "summary": "Early DIU-to-production C-UAS award that let all services order Anduril's installation C-UAS.",
+  "source": "https://www.ocbj.com/technology/anduril-lands-dod-contract-drone-protection-99m-wi/",
+  "source_name": "Orange County Business Journal",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "diu"
+  ]
+ },
+ {
+  "id": "dhs-peo-115m",
+  "date": "2026-01-13",
+  "country": "USA",
+  "customer": "DHS Program Executive Office for UAS & C-UAS (new)",
+  "vendor": "Multiple (not disclosed)",
+  "system": "Drone and counter-drone tech for World Cup venues and America250 events",
+  "category": "layered-system",
+  "value_usd": 115000000.0,
+  "value_kind": "obligated",
+  "value_original": "$115M",
+  "vehicle": "DHS investment",
+  "summary": "DHS stood up a dedicated PEO for UAS and C-UAS and finalized $115M for major-event security; DHS has run 1,500+ C-UAS missions since 2018.",
+  "source": "https://avweb.com/aviation-news/dhs-drone-office-counter-uas-funding",
+  "source_name": "AVweb",
+  "source2": "https://meritalk.com/articles/dhs-pours-115m-into-counter-drone-tech-for-world-cup-security/",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "homeland",
+   "dhs",
+   "world-cup",
+   "last-12-months"
+  ]
+ }
+]

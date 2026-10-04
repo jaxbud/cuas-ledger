@@ -1,0 +1,26 @@
+[
+ {
+  "date": "2026-06-01",
+  "acquirer": "Motorola Solutions",
+  "target": "D-Fend Solutions",
+  "value_usd": 1500000000,
+  "note": "RF cyber-takeover (EnforceAir); expected close Q4 2026; D-Fend projects $185M 2026 revenue",
+  "source": "https://insideunmannedsystems.com/motorola-solutions-to-acquire-d-fend-solutions-for-1-5-billion/"
+ },
+ {
+  "date": "2025-05-01",
+  "acquirer": "AeroVironment",
+  "target": "BlueHalo",
+  "value_usd": 4100000000,
+  "note": "All-stock; brought LOCUST lasers, Titan RF and Freedom Eagle interceptor",
+  "source": "https://dronexl.co/2025/10/22/aerovironment-nabs-96-million-army-contract"
+ },
+ {
+  "date": "2024-10-01",
+  "acquirer": "Axon",
+  "target": "Dedrone",
+  "value_usd": null,
+  "note": "Completed Oct 2024; price not disclosed; Dedrone runs as its own entity",
+  "source": "https://www.securitysales.com/news/axon-completes-acquisition-of-dedrone/162133/"
+ }
+]

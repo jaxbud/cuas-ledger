@@ -1,0 +1,137 @@
+[
+ {
+  "id": "doj-dhs-ifr-2026-07",
+  "date": "2026-07-06",
+  "speaker": "DOJ & DHS (joint)",
+  "role": "Rulemaking agencies",
+  "org": "Department of Justice / Department of Homeland Security",
+  "venue": "Interim Final Rule, 6 CFR & 28 CFR Part 124 (Docket FBI-2026-0001), effective 2026-07-01",
+  "quote": "The Departments expect the initial Authorized Technologies List to include radio frequency (\u201cRF\u201d) detection with command-and-control signal interception, RF disruption ... and RF protocol manipulation",
+  "points": [
+   "Two-tier SLTT certification: Detection & Warning, and Mitigation (hands-on at FBI NCUTC, Huntsville).",
+   "SLTT ops are limited to categories on an interagency Authorized Technologies List (and an Authorized Systems List as populated), distributed via FBI LEEP.",
+   "The initial list is expected to be RF-only: detection with C2 interception, jamming, and cyber takeover/command injection.",
+   "\u00a7124.17: in-flight physical interception ('catching or netting an aircraft in flight') counts as mitigation and requires Mitigation Certification; suspected explosive payloads go to HDS-accredited bomb squads.",
+   "FCC authorization required for RF-emitting systems; comments were due ~Sept 4, 2026."
+  ],
+  "um_relevance": "CRITICAL NUANCE: physical capture is recognized but is not expected on the initial SLTT technology list. Before UM can sell to state and local police, a physical-interception category likely needs to be added through the interagency process. That is a policy engagement task, not a sales task. Federal (DHS/DOJ under 6 U.S.C. 124n) and DoD (10 U.S.C. 130i) users are not bound by this list.",
+  "source": "https://public-inspection.federalregister.gov/2026-13609.pdf",
+  "source_name": "Federal Register (public inspection)",
+  "source2": "https://www.dwt.com/blogs/broadband-advisor/2026/07/safer-skies-counter-drone-framework",
+  "topic": "authorities"
+ },
+ {
+  "id": "larsen-ndaa-cuas-2025-12-09",
+  "date": "2025-12-09",
+  "speaker": "Rep. Rick Larsen (D-WA)",
+  "role": "Ranking Member, House Transportation & Infrastructure Committee",
+  "org": "U.S. House",
+  "venue": "Press statement",
+  "quote": "significantly expanding use of high-risk counter-UAS technologies with lax safety guardrails",
+  "points": [
+   "Objected to the administration inserting its own C-UAS language into the FY26 NDAA instead of the bipartisan tri-committee H.R. 5061.",
+   "Warned it minimizes the FAA's safety role."
+  ],
+  "um_relevance": "Aviation-safety stakeholders (T&I, FAA) remain a brake on domestic mitigation. A low-collateral capture effector is the easiest mitigation story to sell to them.",
+  "source": "https://democrats-transportation.house.gov/news/press-releases/ranking-member-larsen-statement-on-trump-administrations-air-dropped-counter-uas-proposal-in-ndaa",
+  "source_name": "House T&I Democrats",
+  "topic": "authorities"
+ },
+ {
+  "id": "navy-naip-2026-09-16",
+  "date": "2026-09-16",
+  "speaker": "U.S. Navy (NAVSEA/PEO)",
+  "role": "Program office",
+  "org": "U.S. Navy",
+  "venue": "Request for white papers: Naval Affordable Interceptor Prototype",
+  "quote": "mature, affordable missile-based air-defense systems (paraphrase)",
+  "points": [
+   "Containerized launcher holding at least 60 interceptors; installable without permanent ship modification.",
+   "Operational capability within 12 months of award; production path of at least 500 interceptors/yr.",
+   "Targets drones and cruise missiles; driven by Red Sea magazine depletion."
+  ],
+  "um_relevance": "Out of scope for UM's Block 1 (missile-class). It confirms 'containerized and portable' as a cross-service buying theme \u2014 a point in favor of UM's canister launch.",
+  "source": "https://aviationweek.com/defense/missile-defense-weapons/us-navy-opens-search-containerized-missile-interceptor",
+  "source_name": "Aviation Week",
+  "source2": "https://www.defensedaily.com/navy-seeks-new-affordable-interceptor-in-request-for-white-papers/navy-usmc/",
+  "topic": "interceptors"
+ },
+ {
+  "id": "fy27-budget-cuxs-2026-04",
+  "date": "2026-04-21",
+  "speaker": "Department of War Comptroller",
+  "role": "Budget request",
+  "org": "Department of War",
+  "venue": "FY2027 Budget Request Overview",
+  "quote": "$20.6 billion for Counter-Unmanned Systems (C-UXS), including $14.4 billion associated with the Drone Dominance mandatory funding request",
+  "points": [
+   "424% increase over the FY26 enacted $3.9B.",
+   "JIATF-401 RDT&E request $580.3M, up from $6.5M.",
+   "Drone + counter-drone total $74B+ (triple FY26); much of it is mandatory funding that depends on reconciliation.",
+   "Army small C-UAS request $994M (FY26 enacted $596M)."
+  ],
+  "um_relevance": "The money is coming, but ~70% of the C-UxS request is mandatory 'Drone Dominance' funding that needs a reconciliation bill. The discretionary JIATF-401 line ($1.4B in the House bill) is the more reliable near-term source.",
+  "source": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_Budget_Request_Overview_Book.pdf",
+  "source_name": "DoW Comptroller",
+  "source2": "https://threatbeat.com/government-and-industry/heres-how-the-army-plans-to-spend-nearly-1-billion-in-procuring-small-counter-drone-tech/",
+  "topic": "budget"
+ },
+ {
+  "id": "house-approps-fy27-2026-06",
+  "date": "2026-06-24",
+  "speaker": "House Appropriations Committee",
+  "role": "Appropriators",
+  "org": "U.S. House",
+  "venue": "FY27 Defense Appropriations bill (advanced 2026-06-24)",
+  "quote": "$1.4 billion for the Joint Interagency Task Force 401 (JIATF 401)",
+  "points": [
+   "$1.4B for JIATF-401, including a new $580M counter-UAS prototyping line.",
+   "$1B for the Defense Autonomous Warfare Group (DAWG); $1.1B for DIU; $600M APFIT.",
+   "New flexibility lets DAWG/JIATF-401 R&D funds pay for procurement, production and O&M.",
+   "$50M for US-Israel directed energy / C-UAS."
+  ],
+  "um_relevance": "The $580M prototyping line is the most UM-relevant money in the federal budget: R&D funds that can buy prototypes and early production without a new program of record.",
+  "source": "https://appropriations.house.gov/sites/evo-subsites/republicans-appropriations.house.gov/files/evo-media-document/fy27-defense-subcommittee-bill-summary.pdf",
+  "source_name": "House Appropriations",
+  "source2": "https://www.hklaw.com/en/insights/publications/2026/07/drones-and-national-security-what-to-expect-from-congress",
+  "topic": "budget"
+ },
+ {
+  "id": "ndaa-fy27-markup-2026-06",
+  "date": "2026-06-15",
+  "speaker": "HASC & SASC",
+  "role": "Authorizers",
+  "org": "U.S. Congress",
+  "venue": "FY27 NDAA committee markups",
+  "quote": "Establishes Robotic and Autonomous Systems Combatant Command (RASCOM) (Senate \u00a7917, paraphrase)",
+  "points": [
+   "SASC $1.14T / HASC $1.15T toplines.",
+   "Senate \u00a71044 drone posture review; \u00a7847 expands restricted UAS components list; \u00a71216 raises US-Israel C-UAS cooperation to $100M/yr; House \u00a71223 extends US-Israel C-UAS cooperation through Dec 2029.",
+   "House \u00a7834 Autonomy Integration Account."
+  ],
+  "um_relevance": "Supply-chain restrictions (\u00a7847) favor US-built components; keep UM's BOM free of covered-country parts from day one.",
+  "source": "https://www.hklaw.com/en/insights/publications/2026/07/drones-and-national-security-what-to-expect-from-congress",
+  "source_name": "Holland & Knight",
+  "topic": "legislation"
+ },
+ {
+  "id": "safer-skies-enacted-2025-12-18",
+  "date": "2025-12-18",
+  "speaker": "President Donald Trump",
+  "role": "President",
+  "org": "White House",
+  "venue": "Signing of FY26 NDAA (P.L. 119-60), Title LXXXVI SAFER SKIES Act",
+  "quote": "(Enacted) SAFER SKIES Act, NDAA FY26 \u00a7\u00a78601-8607",
+  "points": [
+   "Extends C-UAS authority to trained, certified SLTT law enforcement and corrections.",
+   "\u00a78603-8604: UAS/C-UAS eligible under federal grant programs.",
+   "\u00a78606: DHS standards for safe and lawful drone-interception training.",
+   "Mitigation reports due to DOJ/DHS within 48 hours."
+  ],
+  "um_relevance": "Creates the SLTT market (18,000+ agencies), but entry depends on the authorized-technology list (see IFR).",
+  "source": "https://www.woodsrogers.com/insights/publications/safer-skies-act-expands-domestic-counter-drone-authority",
+  "source_name": "Woods Rogers",
+  "source2": "https://dronelife.com/2025/12/09/ndaa-fy-2026-key-counter-uas-provisions-explained/",
+  "topic": "legislation"
+ }
+]

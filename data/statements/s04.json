@@ -1,0 +1,69 @@
+[
+ {
+  "id": "wicker-perennial-2026-05-20",
+  "date": "2026-05-20",
+  "speaker": "Sen. Roger Wicker (R-MS)",
+  "role": "Chairman, Senate Armed Services Committee",
+  "org": "U.S. Senate",
+  "venue": "Press statement on the Perennial Autonomy $500M award",
+  "quote": "Drone warfare is restructuring the modern battlefield. Our ability to counter adversarial drones cost-effectively will be critical",
+  "points": [
+   "Perennial's $500M IDIQ was funded from a $750M JIATF-401 appropriation in the reconciliation act (the 'Working Families Tax Cut Act').",
+   "Backs fast fielding of battle-tested interceptors (Merops, Bumblebee)."
+  ],
+  "um_relevance": "The SASC chair publicly backs cheap air-to-air interceptors. Combat validation is the currency \u2014 UM needs field or characterization data as early as possible.",
+  "source": "https://www.wicker.senate.gov/2026/5/chairman-wicker-commends-pentagon-for-accelerating-counter-drone-production-with-new-contract",
+  "source_name": "Office of Sen. Wicker",
+  "topic": "legislation"
+ },
+ {
+  "id": "ross-self-epicfury-2026-04-06",
+  "date": "2026-04-06",
+  "speaker": "Brig. Gen. Matt Ross; Michelle Self",
+  "role": "Director, JIATF-401; Deputy, Rapid Acquisition Division, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "DoD News",
+  "quote": "This decisive action demonstrates JIATF 401's ability to rapidly translate operational needs into fielded capability.",
+  "points": [
+   "$600M+ committed in about one month: $350M Epic Fury, $100M World Cup, $158M Domestic Shield."
+  ],
+  "um_relevance": "In a crisis, JIATF-401 buys what is already listed and characterized. Being on the marketplace before the next surge is what matters.",
+  "source": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260406-dodnews02.htm",
+  "source_name": "DoD News via GlobalSecurity",
+  "topic": "acquisition"
+ },
+ {
+  "id": "idleman-av-2026-07-05",
+  "date": "2026-07-05",
+  "speaker": "Col. Jason Idleman",
+  "role": "Chief, Multi-Domain Operations Division, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "DVIDS \u2014 AV $500M Domestic Shield award",
+  "quote": "This investment provides operators with tools to detect, track, and defend against illicit drones.",
+  "points": [
+   "AV Titan configured for fixed-site or mobile Domestic Shield deployments."
+  ],
+  "um_relevance": "Domestic Shield buys interoperable, fixed or mobile kits for installations.",
+  "source": "https://www.dvidshub.net/news/569395/jiatf-401-awards-500-million-counter-uas-contracts-defend-homeland",
+  "source_name": "DVIDS",
+  "topic": "acquisition"
+ },
+ {
+  "id": "noem-dhs-peo-2026-01-13",
+  "date": "2026-01-13",
+  "speaker": "Kristi Noem",
+  "role": "Secretary of Homeland Security (at the time)",
+  "org": "DHS",
+  "venue": "Announcement of the DHS PEO for UAS & C-UAS",
+  "quote": "Drones represent the new frontier of American air superiority",
+  "points": [
+   "New DHS Program Executive Office for UAS and C-UAS centralizes procurement and deployment.",
+   "$115M finalized for World Cup and America250 security.",
+   "DHS has conducted 1,500+ C-UAS missions since its 2018 authority."
+  ],
+  "um_relevance": "DHS now has a dedicated PEO \u2014 a single program office to brief, alongside the S&T-run IDIQ. (DHS leadership changed in 2026: Markwayne Mullin was Secretary by August.)",
+  "source": "https://avweb.com/aviation-news/dhs-drone-office-counter-uas-funding",
+  "source_name": "AVweb",
+  "topic": "homeland"
+ }
+]

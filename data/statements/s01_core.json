@@ -1,0 +1,211 @@
+[
+ {
+  "id": "ross-roundtable-2025-11-14",
+  "date": "2025-11-14",
+  "speaker": "Brig. Gen. Matt Ross",
+  "role": "Director, JIATF-401",
+  "org": "JIATF-401 / Department of War",
+  "venue": "Pentagon media roundtable",
+  "quote": "Drones are a defining threat for our time",
+  "points": [
+   "JIATF-401 focuses on small, software-defined, hardware-enabled, low-cost, attritable solutions; Services keep Title 10 responsibility for larger systems.",
+   "Wants kinetic interceptors without explosive warheads for homeland use (low collateral damage).",
+   "Standardizing comms protocols for plug-and-play sensors/effectors; standard test measurement protocols to end 'demo fatigue'.",
+   "Marketplace will list hundreds of components; thinking interchangeable parts, not only full stacks.",
+   "Pursuing expansion of 10 U.S.C. 130i to all DoW installations and data sharing with DHS (6 U.S.C. 124n).",
+   "Groups 1 and 2 UAS under-resourced compared with Group 3."
+  ],
+  "um_relevance": "Direct signal: JIATF-401 explicitly seeks non-explosive kinetic interceptors for homeland use \u2014 UM's tethered-rope v1 and kinetic-ram Block 2 sit in exactly this lane.",
+  "source": "https://www.army.mil/article/289166/media_roundtable_with_brig_gen_matt_ross_joint_interagency_task_force_401_commander",
+  "source_name": "Army.mil",
+  "topic": "acquisition"
+ },
+ {
+  "id": "ross-defenseone-2026-03-05",
+  "date": "2026-03-05",
+  "speaker": "Brig. Gen. Matt Ross",
+  "role": "Director, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "Defense One / Industry Day",
+  "quote": "The threat posed from unmanned systems is going to far exceed the threat that we saw from IEDs.",
+  "points": [
+   "JIATF-401 online marketplace is live (Ross called it 'clunky').",
+   "Common C2 architecture contract expected within months (became Anduril Lattice, March 2026).",
+   "Installations should be able to order equipment and set it up 'like a Ring doorbell' without vendor technicians.",
+   "'We didn't want to wait for a 9/11 event inside the United States.'"
+  ],
+  "um_relevance": "Ease-of-deployment is a stated buying criterion \u2014 UM's canister launch with no vehicle or crew setup lines up with the 'Ring doorbell' standard.",
+  "source": "https://www.defenseone.com/threats/2026/03/drone-threat-will-far-exceed-gwots-roadside-bomb-threat-counter-drone-task-force-director/411921",
+  "source_name": "Defense One",
+  "topic": "threat"
+ },
+ {
+  "id": "jiatf401-industry-day-2026-03-05",
+  "date": "2026-03-05",
+  "speaker": "Brig. Gen. Matt Ross",
+  "role": "Director, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "Industry Day, Hilton Alexandria Mark Center, VA",
+  "quote": "What we need is a layered defense: awareness, different capabilities and an ecosystem that works together",
+  "points": [
+   "Priorities: proliferation of low-cost sUAS; making c-sUAS products accessible to customers; expanding the industrial base; closing integration gaps across DoW and interagency."
+  ],
+  "um_relevance": "Industry days are the primary on-ramp; UM should register for the next one and the marketplace.",
+  "source": "https://www.dvidshub.net/news/printable/559708",
+  "source_name": "DVIDS",
+  "topic": "industry-engagement"
+ },
+ {
+  "id": "ross-ctc-sentinel-2026-06",
+  "date": "2026-06-01",
+  "speaker": "Brig. Gen. Matthew Ross",
+  "role": "Director, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "CTC Sentinel (West Point) interview",
+  "quote": "We need to get outside that perimeter to sense in depth",
+  "points": [
+   "JIATF-401 reports to the Deputy Secretary of War; Ross also advises the CJCS on C-UAS.",
+   "Priorities: homeland defense, warfighter lethality, joint training.",
+   "Testing Bumblebee V1/V2 kinetic interceptors with automatic target recognition and software-updatable algorithms.",
+   "Aggregating demand across DoD and interagency so U.S. industry builds breadth and depth.",
+   "Layered defense on 1,954-mile southern border; $20M+ of C-UAS tech allocated there."
+  ],
+  "um_relevance": "Sensing in depth beyond the perimeter favors airborne sensors \u2014 UM's onboard radar + EO/IR interceptor is a forward sensor as well as an effector.",
+  "source": "https://ctc.westpoint.edu/a-view-from-ct-foxhole-brigadier-general-matthew-ross-director-jiatf-401/",
+  "source_name": "CTC Sentinel, West Point",
+  "topic": "strategy"
+ },
+ {
+  "id": "ingraham-idiq-2026-09-29",
+  "date": "2026-09-29",
+  "speaker": "Brent G. Ingraham",
+  "role": "Assistant Secretary of the Army (Acquisition, Logistics & Technology)",
+  "org": "U.S. Army",
+  "venue": "Army/JIATF-401 award announcement",
+  "quote": "These vehicles span counter-UAS capabilities from sensors to effectors to C2 systems, giving us options as requirements emerge.",
+  "points": [
+   "Multi-vendor marketplace enforces strict open-architecture standards; intent to avoid vendor lock-in.",
+   "Only ~$50M obligated at award; the rest depends on FY27 appropriations (CR to mid-Dec 2026)."
+  ],
+  "um_relevance": "Open-architecture compliance (Lattice/C2 integration) is now a gating requirement to be ordered from these vehicles.",
+  "source": "https://defensescoop.com/2026/09/29/pentagon-task-force-army-announce-billions-in-counter-drone-tech-awards/",
+  "source_name": "DefenseScoop",
+  "topic": "acquisition"
+ },
+ {
+  "id": "lindh-more-idiqs-2026-09-29",
+  "date": "2026-09-29",
+  "speaker": "Col. Tony Lindh",
+  "role": "Director of Acquisition, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "DefenseScoop",
+  "quote": "Expects to sign additional IDIQs before the end of next month to reach the full $7B ceiling (paraphrase).",
+  "points": [
+   "$4.15B awarded to 10 vendors on 2026-09-29 plus ~$1B earlier (AV, CACI); remaining ceiling to be awarded by end of October 2026."
+  ],
+  "um_relevance": "Time-critical: the remaining ~$1.85B of IDIQ ceiling is being placed in October 2026. Even if UM is too early to win a base award, it should learn the evaluation criteria and target the next on-ramp.",
+  "source": "https://defensescoop.com/2026/09/29/pentagon-task-force-army-announce-billions-in-counter-drone-tech-awards/",
+  "source_name": "DefenseScoop",
+  "topic": "acquisition"
+ },
+ {
+  "id": "ross-grizzly-2026-09-29",
+  "date": "2026-09-29",
+  "speaker": "Brig. Gen. Matt Ross",
+  "role": "Director, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "Army.mil",
+  "quote": "identify an urgent warfighter need, test available solutions against a common standard, make a data-driven decision, and move immediately toward delivering the capability.",
+  "points": [
+   "Grizzly (Lockheed Martin) selected after Aug 17-28, 2026 Yuma Proving Ground shoot-off vs Group 3 UAS with PAE Fires."
+  ],
+  "um_relevance": "The JIATF-401 model is test-then-buy: getting into a characterization event is the path to an award.",
+  "source": "https://www.army.mil/article/295795/jiatf_401_accelerates_kinetic_drone_defeat",
+  "source_name": "Army.mil",
+  "topic": "test-and-evaluation"
+ },
+ {
+  "id": "driscoll-merops-2026-04-16",
+  "date": "2026-04-16",
+  "speaker": "Dan Driscoll",
+  "role": "Secretary of the Army",
+  "org": "U.S. Army",
+  "venue": "Congressional budget hearing",
+  "quote": "within about eight days, we were able to purchase \u2026 13,000 Merops",
+  "points": [
+   "Merops ~$15k each, expected below $10k at scale, vs $30-50k per Shahed.",
+   "'That puts us on the right end of the cost curve, and we will make that trade all day long.'"
+  ],
+  "um_relevance": "Proves the Army will buy interceptor drones in the tens of thousands, fast, when cost per kill beats the threat. UM's $1,600 modelled cost per kill has to be proven against this benchmark.",
+  "source": "https://www.armytimes.com/unmanned/2026/04/20/us-army-turns-to-ukraine-tested-drones-to-counter-iranian-uav-threat/",
+  "source_name": "Army Times",
+  "topic": "interceptors"
+ },
+ {
+  "id": "king-merops-2026-04",
+  "date": "2026-04-20",
+  "speaker": "Brig. Gen. Curtis King",
+  "role": "Commanding General, 10th Army Air and Missile Defense Command",
+  "org": "U.S. Army Europe",
+  "venue": "Army Times",
+  "quote": "enables us to kill [enemies] very effectively and at a much lower cost",
+  "points": [
+   "Merops described as 'very lethal'; NATO allies Poland and Romania also operate it."
+  ],
+  "um_relevance": "Operational users in Europe value low cost per kill above all; UM must show cost per kill and reuse.",
+  "source": "https://www.armytimes.com/unmanned/2026/04/20/us-army-turns-to-ukraine-tested-drones-to-counter-iranian-uav-threat/",
+  "source_name": "Army Times",
+  "topic": "interceptors"
+ },
+ {
+  "id": "fema-evans-2025-12-30",
+  "date": "2025-12-30",
+  "speaker": "Karen S. Evans",
+  "role": "Acting Administrator, FEMA",
+  "org": "FEMA / DHS",
+  "venue": "FEMA press release",
+  "quote": "We knew we needed to act quickly to keep the World Cup safe from the rising threat of unmanned aircraft systems",
+  "points": [
+   "$250M to 11 World Cup host states + National Capital Region; awarded 25 days after the application deadline.",
+   "Second $250M tranche to all states and territories in FY2027."
+  ],
+  "um_relevance": "State and local agencies now hold C-UAS money and (after SAFER SKIES) limited mitigation authority \u2014 a second customer base for a capture effector legal in populated airspace.",
+  "source": "https://www.fema.gov/press-release/20251230/historic-announcement-fema-rapidly-awards-250-million-secure-us-skies-ahead",
+  "source_name": "FEMA",
+  "topic": "homeland"
+ },
+ {
+  "id": "mullin-dhs-idiq-2026-08",
+  "date": "2026-08-05",
+  "speaker": "Markwayne Mullin",
+  "role": "Secretary of Homeland Security",
+  "org": "DHS",
+  "venue": "DHS award announcement",
+  "quote": "These awards mark an important step in strengthening DHS's ability to respond to unauthorized and malicious unmanned aircraft systems.",
+  "points": [
+   "DHS $1.5B department-wide C-UAS IDIQ (S&T). Justin Napolitano (DHS CSO) and Pedro Allende (Under Secretary S&T) also quoted.",
+   "Allende called standard contracting timelines a hindrance and sought renewed Other Transaction Authority."
+  ],
+  "um_relevance": "DHS buys through prime integrators (Leidos, CACI, BAE, Anduril, etc.); UM's DHS path is as a subcontracted effector under a Track-1 holder.",
+  "source": "https://insideunmannedsystems.com/dhs-awards-1-5-billion-counter-uas-contract-to-12-companies/",
+  "source_name": "Inside Unmanned Systems",
+  "topic": "homeland"
+ },
+ {
+  "id": "northcom-epic-fury-2026-03",
+  "date": "2026-03-24",
+  "speaker": "NORTHCOM spokesperson / Gen. Gregory Guillot",
+  "role": "Commander, U.S. Northern Command",
+  "org": "NORTHCOM",
+  "venue": "DefenseScoop / The War Zone",
+  "quote": "There have been several incursions, but we have not determined nefarious intent.",
+  "points": [
+   "NORTHCOM's Flyaway Kit jammed a sUAS over a 'strategic' installation in the first hours of Operation Epic Fury (began 2026-02-28).",
+   "Incursions reported at Fort McNair and Barksdale AFB; more Flyaway Kits due spring 2026."
+  ],
+  "um_relevance": "Homeland base incursions are real and continuing; jamming is the default response, and it fails against RF-silent drones \u2014 UM's core wedge.",
+  "source": "https://defensescoop.com/2026/03/24/drone-incursions-strategic-us-military-base-jamming/",
+  "source_name": "DefenseScoop",
+  "topic": "homeland"
+ }
+]

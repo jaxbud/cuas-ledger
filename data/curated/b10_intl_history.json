@@ -1,0 +1,111 @@
+[
+ {
+  "id": "usai-vampire-2022",
+  "date": "2022-08-24",
+  "country": "Ukraine (US aid)",
+  "customer": "DoD for Ukraine (USAI $3B package)",
+  "vendor": "L3Harris Technologies",
+  "system": "VAMPIRE vehicle-agnostic APKWS C-UAS kits",
+  "category": "missile-rocket",
+  "value_usd": null,
+  "value_kind": null,
+  "value_original": "Part of a $3B USAI package",
+  "vehicle": "Ukraine Security Assistance Initiative",
+  "summary": "First US C-UAS kits bought for Ukraine; VAMPIRE later logged 350,000+ operational hours and came back to the US Army (2026).",
+  "source": "https://defensescoop.com/2022/08/24/new-3-billion-us-military-aid-package-for-ukraine-includes-counter-drone-systems/",
+  "source_name": "DefenseScoop",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "ukraine"
+  ]
+ },
+ {
+  "id": "uk-drone-dome-2018",
+  "date": "2018",
+  "country": "United Kingdom",
+  "customer": "British Army",
+  "vendor": "Rafael Advanced Defense Systems",
+  "system": "Drone Dome (6 systems) \u2014 radar, EO, RF jammer",
+  "category": "rf-soft-kill",
+  "value_usd": 20000000.0,
+  "value_kind": "firm",
+  "value_original": "\u00a315.8M (~$20M)",
+  "vehicle": "Purchase",
+  "summary": "Bought for counter-ISIS operations in Syria; deployed at Gatwick in Dec 2018 alongside the RAF's Leonardo ORCUS (Falcon Shield).",
+  "source": "https://www.timesofisrael.com/uk-army-said-to-use-israeli-made-system-to-end-drone-chaos-at-london-airport/",
+  "source_name": "Times of Israel",
+  "source2": "https://en.globes.co.il/en/article-uk-army-deploys-rafaels-drone-dome-at-gatwick-airport-1001265876",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "europe"
+  ]
+ },
+ {
+  "id": "korea-block1-laser",
+  "date": "2024-06-25",
+  "country": "South Korea",
+  "customer": "DAPA",
+  "vendor": "Hanwha Aerospace",
+  "system": "Block-I 20 kW-class fiber laser C-UAV (~$1.45/shot)",
+  "category": "laser",
+  "value_usd": 72500000.0,
+  "value_kind": "firm",
+  "value_original": "~KRW 100B (~$72.5M)",
+  "vehicle": "Mass-production contract",
+  "summary": "First country to field an operational laser AD weapon against small UAVs; deployed to front-line units and Seoul.",
+  "source": "https://www.koreajoongangdaily.com/korea/koreas-star-wars-era-begins-as-laser-drone-killer-enters-mass-production/10783472",
+  "source_name": "Korea JoongAng Daily",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "asia",
+   "directed-energy"
+  ]
+ },
+ {
+  "id": "germany-skynex-ukraine",
+  "date": "2022-12-09",
+  "country": "Ukraine (German-funded)",
+  "customer": "German government for Ukraine",
+  "vendor": "Rheinmetall",
+  "system": "Skynex 35 mm air defence (2 systems; 2 more in early 2024)",
+  "category": "gun",
+  "value_usd": 192000000.0,
+  "value_kind": "firm",
+  "value_original": "\u20ac182M + ~\u20ac12M trucks (first two)",
+  "vehicle": "Government-funded purchase",
+  "summary": "Gun-based counter-Shahed defense for Ukrainian power plants; four systems delivered by Nov 2025.",
+  "source": "https://www.thedefensepost.com/2022/12/16/germany-rheinmetall-air-defense-ukraine/",
+  "source_name": "The Defense Post",
+  "source2": "https://armyrecognition.com/archives/archives-land-defense/defense-news-army-2025/germany-completes-skynex-delivery-to-ukraine-to-counter-russian-drones-and-missiles",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "ukraine"
+  ]
+ },
+ {
+  "id": "germany-tytan-metis-ukraine",
+  "date": "2026-04-11",
+  "country": "Ukraine (German-funded)",
+  "customer": "German government for Ukraine",
+  "vendor": "TYTAN Technologies",
+  "system": "1,000+ METIS interceptor drones (published: 45 km range, 6 km ceiling, 400 km/h max speed, 6 kg; hit-to-kill or 1 kg HE)",
+  "category": "interceptor-drone",
+  "value_usd": null,
+  "value_kind": null,
+  "value_original": "Undisclosed",
+  "vehicle": "Government-funded purchase",
+  "summary": "Germany-funded buy for Ukraine's National Guard. METIS publishes a 400 km/h (~249 mph) top speed, above the 200 mph pursuit threshold that UM tracks. TYTAN raised a \u20ac30M Series A (Feb 2026; \u20ac46M total) and targets 3,000/month by end-2026.",
+  "source": "https://www.thedefensenews.com/Germany-Awards-Contract-to-TYTAN-for-Over-1000-METIS-Interceptor-Drones-for-Ukraine/",
+  "source_name": "The Defense News",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "ukraine",
+   "interceptor",
+   "last-12-months"
+  ]
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "id": "sbir-reauth-2026-04-13",
+  "date": "2026-04-13",
+  "speaker": "President Trump / Congress",
+  "role": "Legislation",
+  "org": "U.S. Government",
+  "venue": "Small Business Innovation and Economic Security Act of 2026 (S. 3971)",
+  "quote": "(Enacted) SBIR/STTR extended through September 30, 2031",
+  "points": [
+   "Ended a 195-day lapse (Oct 1, 2025 \u2013 Apr 13, 2026) when no new SBIR/STTR awards could be made.",
+   "New Phase II 'strategic breakthrough' awards up to $30M; tighter foreign-risk screening.",
+   "From FY27, agencies may cap proposals per company, solicitation or topic."
+  ],
+  "um_relevance": "SBIR is back and bigger. A $30M strategic-breakthrough Phase II is a realistic medium-term target once Phase I/II data exists. Per-company proposal caps from FY27 mean UM should pick topics deliberately.",
+  "source": "https://www.mondaq.com/unitedstates/government-contracts-procurement-ppp/1774902/sbirsttr-programs-reauthorized-after-six-month-lapse",
+  "source_name": "Mondaq",
+  "source2": "https://grantedai.com/blog/sbir-sttr-reauthorization-2026-signed-fy2031-strategic-breakthrough-award-30-million-application-caps-foreign-risk-screening-small-business-strategy",
+  "topic": "funding"
+ },
+ {
+  "id": "fy27-cr-2026-10",
+  "date": "2026-09-30",
+  "speaker": "Congress / President",
+  "role": "Appropriations",
+  "org": "U.S. Government",
+  "venue": "Continuing Appropriations and Extensions Act, 2027",
+  "quote": "(CR) Funding through December 11, 2026 at FY26 levels; no new production starts",
+  "points": [
+   "Most programs held at FY26 levels until Dec 11, 2026.",
+   "Bars War Department funds for new production of items not funded for production in FY26 or earlier.",
+   "The $350B defense reconciliation request (which carries most 'Drone Dominance' money) is uncertain."
+  ],
+  "um_relevance": "Near-term (Q4 2026) money comes from existing lines: RDT&E, O&M, prototyping (OTA), SBIR, and orders on already-awarded IDIQs. New C-UAS production starts wait for full-year appropriations.",
+  "source": "https://www.govconwire.com/articles/continuing-resolution-fy2027-funding-signed",
+  "source_name": "GovConWire",
+  "source2": "https://www.csis.org/analysis/tracking-fy-2027-defense-appropriations-reconciliation-and-supplemental-request",
+  "topic": "budget"
+ }
+]

@@ -1,0 +1,110 @@
+[
+ {
+  "id": "src-usaf-57m-2018",
+  "date": "2018-04",
+  "country": "USA",
+  "customer": "Air Force Life Cycle Management Center",
+  "vendor": "SRC Inc.",
+  "system": "C-UAS supplies (sole source)",
+  "category": "layered-system",
+  "value_usd": 57500000.0,
+  "value_kind": "ceiling",
+  "value_original": "$57.5M ($28.1M obligated FY16-17 procurement)",
+  "vehicle": "Contract action",
+  "summary": "Early Air Force C-UAS buy; SRC also won a $108M Army battlefield C-UAS contract around the same time.",
+  "source": "https://blog.executivebiz.com/2018/04/src-gets-58m-air-force-counter-uas-supplies-contract-action/",
+  "source_name": "ExecutiveBiz",
+  "source2": "https://www.globalsecurity.org/military/library/news/2018/04/dod-contracts_1488571.htm",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history"
+  ]
+ },
+ {
+  "id": "src-army-108m",
+  "date": "2018",
+  "country": "USA",
+  "customer": "U.S. Army",
+  "vendor": "SRC Inc.",
+  "system": "Battlefield C-UAS equipment",
+  "category": "layered-system",
+  "value_usd": 108000000.0,
+  "value_kind": "ceiling",
+  "value_original": "$108M",
+  "vehicle": "Contract",
+  "summary": "Army C-UAS equipment buy (LIDS family).",
+  "source": "https://www.unmannedairspace.info/?p=3826",
+  "source_name": "Unmanned Airspace",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "lids"
+  ]
+ },
+ {
+  "id": "raytheon-helws-usaf",
+  "date": "2019",
+  "country": "USA",
+  "customer": "AFRL",
+  "vendor": "Raytheon",
+  "system": "HELWS dune-buggy laser C-UAS (3 prototypes)",
+  "category": "laser",
+  "value_usd": 36900000.0,
+  "value_kind": "firm",
+  "value_original": "$23.8M (2 prototypes) + $13.1M (3rd)",
+  "vehicle": "Contracts",
+  "summary": "First laser C-UAS delivered to USAF (Oct 2019) and deployed overseas in a year-long experiment.",
+  "source": "https://raytheon.mediaroom.com/2019-10-22-Raytheon-delivers-first-laser-counter-UAS-System-to-U-S-Air-Force",
+  "source_name": "Raytheon",
+  "source2": "https://www.defensenews.com/unmanned/2021/03/15/drone-killing-dune-buggy-mounted-laser-gets-tested-overseas/",
+  "confidence": "VENDOR",
+  "tags": [
+   "history",
+   "directed-energy"
+  ]
+ },
+ {
+  "id": "anduril-roadrunner-250m",
+  "date": "2024-10-08",
+  "country": "USA",
+  "customer": "DoD (multiple services, priority regions)",
+  "vendor": "Anduril Industries",
+  "system": "500+ Roadrunner-M HE VTOL interceptors + Pulsar EW",
+  "category": "interceptor-drone",
+  "value_usd": 249978466,
+  "value_kind": "firm",
+  "value_original": "$249,978,466",
+  "vehicle": "Contract",
+  "summary": "First large reusable-if-unused interceptor buy (Roadrunner can return and land if not expended). Deliveries Q4 2024 through 2025.",
+  "source": "https://www.defensenews.com/unmanned/2024/10/08/anduril-lands-250-million-pentagon-contract-for-drone-defense-system/",
+  "source_name": "Defense News",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "interceptor",
+   "reusable",
+   "direct-competitor"
+  ]
+ },
+ {
+  "id": "bluehalo-amp-hel",
+  "date": "2023-04",
+  "country": "USA",
+  "customer": "Army RCCTO",
+  "vendor": "BlueHalo (now AV)",
+  "system": "LOCUST 20 kW-class AMP-HEL on Infantry Squad Vehicle",
+  "category": "laser",
+  "value_usd": 75900000.0,
+  "value_kind": "ceiling",
+  "value_original": "$45.7M base OTA + $30.2M options",
+  "vehicle": "OTA",
+  "summary": "Precursor to the 2026 E-HEL production award; P-HEL palletized prototype delivered April 2022.",
+  "source": "https://www.thedefensepost.com/2023/04/12/us-army-laser-weapon-squad-vehicles/",
+  "source_name": "The Defense Post",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "directed-energy"
+  ]
+ }
+]

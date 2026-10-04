@@ -1,0 +1,109 @@
+[
+ {
+  "id": "zelensky-2000-day-2026-03-26",
+  "date": "2026-03-26",
+  "speaker": "Volodymyr Zelensky",
+  "role": "President of Ukraine",
+  "org": "Ukraine",
+  "venue": "Reuters interview",
+  "quote": "The technology is there. Provided there is a budget, Ukraine is capable of producing 2,000 interceptor drones per day.",
+  "points": [
+   "Interceptors cost about $2,100\u20135,000 each; 2\u20133 interceptors are needed per Shahed.",
+   "Russia launches 350\u2013500 Shaheds a day and is planning 600\u2013800 in 2026.",
+   "Five Middle Eastern nations have deployed Ukrainian interceptors; 17+ countries have asked."
+  ],
+  "um_relevance": "The world's most experienced user puts shots per kill at 2\u20133 for interceptor drones. UM's 1.5 placeholder is optimistic until measured. Price competition from Ukraine is about $2\u20135K per round.",
+  "source": "https://dronexl.co/2026/03/29/zelenskyy-ukraine-2000-interceptor-drones-per-day-budget",
+  "source_name": "DroneXL (Reuters interview)",
+  "topic": "interceptors"
+ },
+ {
+  "id": "rutte-cheaper-2026-09-29",
+  "date": "2026-09-29",
+  "speaker": "Mark Rutte",
+  "role": "NATO Secretary General",
+  "org": "NATO",
+  "venue": "Press remarks after drone incursions into EU airspace",
+  "quote": "the alliance wants to develop more cost-effective ways to intercept drones",
+  "points": [
+   "NATO will expand lower-cost counter-drone systems rather than routinely sending fighters against cheap drones.",
+   "Drone Edge initiative; 'multilayered, 360-degree' integrated air defence.",
+   "Italian jets from \u0160iauliai downed a drone over Lithuania about two weeks earlier."
+  ],
+  "um_relevance": "Allied demand for cheap airborne interceptors is a stated NATO priority, a route for UM through FMS or a European partner once US-proven.",
+  "source": "https://en.yenisafak.com/world/nato-to-expand-cheaper-drone-defenses-along-eastern-flank-3723872",
+  "source_name": "Yeni \u015eafak",
+  "source2": "https://www.eurointegration.com.ua/eng/news/2026/09/29/7246529/index.amp",
+  "topic": "allies"
+ },
+ {
+  "id": "uk-dip-2026-06-30",
+  "date": "2026-06-30",
+  "speaker": "UK Ministry of Defence",
+  "role": "Defence Investment Plan",
+  "org": "United Kingdom",
+  "venue": "Defence Investment Plan",
+  "quote": "enhance protection of the UK homeland and overseas bases from air, drone and missile threats",
+  "points": [
+   "About \u00a31.8B (~$2.3B) for C-UAS-related spending; \u00a3790M of the \u00a32B Digital Targeting Web for counter air, missile and drone threats.",
+   "Base defence at home and abroad; C-UAS interceptor stockpiles; directed energy."
+  ],
+  "um_relevance": "The UK is the most active allied buyer of interceptors (LCADE, Skyhammer, GOSHAWK), but it favors UK SMEs.",
+  "source": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/uk-will-spend-over-usd2-3-billion-on-c-uas-systems-in-new-defence-investment-plan/",
+  "source_name": "Unmanned Airspace",
+  "topic": "allies"
+ },
+ {
+  "id": "kubilius-eu-2026-07-04",
+  "date": "2026-07-04",
+  "speaker": "Andrius Kubilius",
+  "role": "EU Commissioner for Defence and Space",
+  "org": "European Commission",
+  "venue": "Launch of five joint defence projects",
+  "quote": "(EU) Five joint projects worth a projected \u20ac190B to 2036, including anti-drone",
+  "points": [
+   "European Drone Defence Initiative launched Q1 2026, initial capacity due Q4 2026.",
+   "European Defence Fund: \u20ac1.07B to 57 projects (Apr 2026), 15+ contributing to drone defence."
+  ],
+  "um_relevance": "EU money flows mostly to EU-based firms. For a US startup the EU is a partner or export market, not a near-term prime opportunity.",
+  "source": "https://samsearch.co/government-contracting-news/eu-initiates-190-billion-defense-projects-to-boost-joint-military-capability-132484",
+  "source_name": "SamSearch",
+  "source2": "https://www.defensemagazine.com/article/building-european-readiness-2030-eur107-billion-edf-investment-targets-drones-eastern-flank-air-and-space-shields",
+  "topic": "allies"
+ },
+ {
+  "id": "interceptor-bazaar-2026-05-05",
+  "date": "2026-05-05",
+  "speaker": "Robertas Kaunas; Stanislav Gryshyn; Dan Driscoll",
+  "role": "Lithuanian Defence Minister; co-founder, General Cherry (Ukraine); Secretary of the Army",
+  "org": "Lithuania / Ukrainian industry / U.S. Army",
+  "venue": "Defense News: 'NATO nations size up an interceptor drone bazaar'",
+  "quote": "When you need to shoot down 60 Shaheds at once, you need $2,000 systems, not $15,000 complexes",
+  "points": [
+   "Lithuania bought 48 Merops (22 Apr 2026); Kaunas: capable of intercepting Shahed, Gerbera and similar targets.",
+   "Ukrainian interceptors quoted at $1,000\u20133,000; Merops $15K, $10K at scale.",
+   "Merops was fast-tracked through the Army's G-TEAD channel and flagged as a transition candidate for Project Manager Close Combat Systems."
+  ],
+  "um_relevance": "Gives the price band European buyers use ($1\u201315K) and names the Army program office (PM Close Combat Systems) and fast lane (G-TEAD) that a US interceptor drone would move through.",
+  "source": "https://www.defensenews.com/global/europe/2026/05/05/nato-nations-size-up-an-interceptor-drone-bazaar-where-low-price-is-everything/",
+  "source_name": "Defense News",
+  "topic": "interceptors"
+ },
+ {
+  "id": "ross-price-bumblebee-2026-02-06",
+  "date": "2026-02-06",
+  "speaker": "Brig. Gen. Matthew Ross; Maj. Cole Price",
+  "role": "Director, JIATF-401; Assistant Capability Manager, JIATF-401",
+  "org": "JIATF-401",
+  "venue": "Army.mil \u2014 Bumblebee V2 award",
+  "quote": "a cost-effective, reliable interceptor that can neutralize threats without endangering our own forces or surrounding infrastructure",
+  "points": [
+   "Bumblebee V2 FPV interceptor defeats by collision; $5.2M; assessed by the Global Response Force.",
+   "Price: 'This provides a crucial capability for our forces to counter the growing threat of autonomous systems.'"
+  ],
+  "um_relevance": "JIATF-401's own language for a non-explosive collision interceptor ('without endangering ... surrounding infrastructure') is the language UM should use for its Block 2 ram.",
+  "source": "https://www.army.mil/article/290392",
+  "source_name": "Army.mil",
+  "topic": "interceptors"
+ }
+]

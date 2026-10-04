@@ -1,0 +1,69 @@
+[
+ {
+  "id": "anduril-northcom-fak",
+  "date": "2025-03",
+  "country": "USA",
+  "customer": "U.S. Northern Command",
+  "vendor": "Anduril Industries",
+  "system": "Flyaway Kit: Mobile Sentry, Wisp (SkyFence), Pulsar RF, Anvil low-collateral kinetic interceptor",
+  "category": "layered-system",
+  "value_usd": null,
+  "value_kind": null,
+  "value_original": "Undisclosed; more kits delivered spring 2026",
+  "vehicle": "Purchase",
+  "summary": "Rapid-deploy kit for installations facing drone incursions; validated at Falcon Peak 25.2 (Eglin) and Global Thunder (Minot AFB, Oct 2025); used in the first hours of Operation Epic Fury.",
+  "source": "https://thedefensepost.com/2025/11/10/us-military-fly-away-kit",
+  "source_name": "The Defense Post",
+  "source2": "https://defensescoop.com/2026/03/24/drone-incursions-strategic-us-military-base-jamming/",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "homeland",
+   "northcom",
+   "installation"
+  ]
+ },
+ {
+  "id": "india-ep2025-cuas",
+  "date": "2025-06-30",
+  "country": "India",
+  "customer": "Indian Ministry of Defence (Emergency Procurement 2025)",
+  "vendor": "Multiple incl. BEL (IDDIS)",
+  "system": "13 contracts: IDDIS, low-level lightweight radars, VSHORAD launchers/missiles",
+  "category": "layered-system",
+  "value_usd": 231600000.0,
+  "value_kind": "firm",
+  "value_original": "INR 19.82B (~$231.6M)",
+  "vehicle": "Emergency procurement",
+  "summary": "Signed after the May 7-10, 2025 India-Pakistan air battle (Operation Sindoor), where IDDIS downed Pakistani drones.",
+  "source": "https://www.defensenews.com/global/asia-pacific/2025/06/30/india-buys-drones-air-defense-weapons-following-aerial-pakistan-fight/",
+  "source_name": "Defense News",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "asia",
+   "history"
+  ]
+ },
+ {
+  "id": "israel-iron-beam-nis2b",
+  "date": "2024-10-28",
+  "country": "Israel",
+  "customer": "Israel MOD (DDR&D)",
+  "vendor": "Rafael (prime) + Elbit Systems ($200M laser source)",
+  "system": "Iron Beam 100 kW HEL production acceleration",
+  "category": "laser",
+  "value_usd": 550000000.0,
+  "value_kind": "firm",
+  "value_original": "NIS 2B (~$550M)",
+  "vehicle": "MOD contract",
+  "summary": "Accelerated production; first operational unit delivered Dec 28, 2025.",
+  "source": "https://en.globes.co.il/en/article-defense-ministry-signs-nis-2b-laser-defense-systems-deal-1001492483",
+  "source_name": "Globes",
+  "source2": "https://www.defensenews.com/global/mideast-africa/2024/10/28/israel-says-it-will-field-iron-beam-air-defense-lasers-in-a-year/",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "middle-east",
+   "directed-energy",
+   "history"
+  ]
+ }
+]

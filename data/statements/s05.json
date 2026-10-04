@@ -1,0 +1,56 @@
+[
+ {
+  "id": "us-uk-data-standards-2026-03-12",
+  "date": "2026-03-12",
+  "speaker": "Dan Driscoll; Brig. Gen. Matt Ross; Col. Anna Scott (British Army)",
+  "role": "SecArmy; Director JIATF-401; British Army advisor",
+  "org": "Department of War / UK MOD",
+  "venue": "US-UK Joint Declaration of Intent on C-UAS data standards",
+  "quote": "Vendors who adopt these standards will find a more direct path to their capabilities.",
+  "points": [
+   "Common C-UAS data formats for allied sensor fusion and data sharing.",
+   "Five more nations to follow; up to 25 countries able to buy from the JIATF-401 marketplace by summer 2026.",
+   "Marketplace listings will require compliance with the data standard."
+  ],
+  "um_relevance": "UM's interceptor must output tracks and engagement status in the JIATF-401 / US-UK data standard and integrate with Lattice. That compliance is the price of entry to both US and allied buyers.",
+  "source": "https://www.globalsecurity.org/military/library/news/2026/03/mil-260312-arnews02.htm",
+  "source_name": "Army News via GlobalSecurity",
+  "topic": "standards"
+ },
+ {
+  "id": "blue-uas-dcma-2025-12-03",
+  "date": "2025-12-03",
+  "speaker": "Defense Innovation Unit / DCMA",
+  "role": "Program transfer",
+  "org": "DIU \u2192 DCMA",
+  "venue": "Blue UAS Cleared List transition",
+  "quote": "(Blue UAS list moved to DCMA; new portal launched)",
+  "points": [
+   "Blue UAS list now run by DCMA (bluelist.dcma.mil) under Hegseth's 'small UAS domain dominance by end of 2027' directive.",
+   "Framework: 81 vetted companies, 39 platforms, 165 cleared components; focus on Group 1-2."
+  ],
+  "um_relevance": "UM's interceptor is itself a UAS. Building from Blue-cleared, NDAA-compliant components (and later pursuing Blue listing) removes a procurement objection.",
+  "source": "https://insideunmannedsystems.com/blue-uas-moves-out-of-diu-to-dcma/",
+  "source_name": "Inside Unmanned Systems",
+  "source2": "https://www.diu.mil/latest/dius-blue-uas-list-to-transition-to-dcma",
+  "topic": "standards"
+ },
+ {
+  "id": "northcom-mayes-2024-10-31",
+  "date": "2024-10-31",
+  "speaker": "Jason Mayes",
+  "role": "Deputy Test Director, NORTHCOM",
+  "org": "U.S. Northern Command",
+  "venue": "Interview with The War Zone (historical baseline)",
+  "quote": "They're not appropriate for the homeland.",
+  "points": [
+   "Listed as appropriate at home: EW/cyber, GPS/RF jamming (with limits), passive detection, net or streamer-launching drones, link hijacking.",
+   "Excluded: lasers, HPM, missiles, guns, and kinetic interceptors like Coyote.",
+   "Net drones work like a goalie but cannot keep up with 150-200+ mph FPV drones."
+  ],
+  "um_relevance": "HISTORICAL BASELINE (Oct 2024). Since then NORTHCOM's own Flyaway Kit includes Anduril's Anvil low-collateral kinetic interceptor, and JIATF-401 asks for non-explosive kinetic interceptors for homeland use. Capture is no longer the only approved airborne effector. UM's wedge narrows from 'only legal option' to 'lowest-collateral option that also defeats RF-silent drones'.",
+  "source": "https://www.twz.com/air/lasers-microwaves-missiles-guns-not-on-the-table-for-domestic-drone-defense",
+  "source_name": "The War Zone",
+  "topic": "authorities"
+ }
+]
