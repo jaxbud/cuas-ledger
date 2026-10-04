@@ -251,10 +251,10 @@
   "value_kind": "ceiling",
   "value_original": "$20B, 10-yr enterprise ordering vehicle (to Mar 12, 2036)",
   "vehicle": "Enterprise agreement / ordering vehicle (FFP)",
-  "summary": "Largest published C-UAS contract vehicle ever. Designates Lattice as the common tactical C2 for C-UAS; first task order $87M from JIATF-401 for Lattice C2. Other DoD/federal agencies can order from it.",
+  "summary": "Largest published C-UAS contract vehicle ever. Consolidates 120+ separate procurement actions into one vehicle run by Army Contracting Command\u2013Aberdeen Proving Ground and makes Lattice the common tactical C2 for C-UAS. First task order: $87M from JIATF-401 for Lattice C2. Other DoD and federal agencies can order from it.",
   "source": "https://defensescoop.com/2026/03/14/anduril-20-billion-dollar-army-contract/",
   "source_name": "DefenseScoop",
-  "source2": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/us-army-awards-anduril-the-worlds-largest-ever-c-uas-contact-at-usd20-billion/",
+  "source2": "https://breakingdefense.com/2026/03/army-awards-anduril-counter-drone-task-order-as-first-in-new-20b-contract-vehicle/",
   "confidence": "PUBLISHED",
   "tags": [
    "jiatf-401",
