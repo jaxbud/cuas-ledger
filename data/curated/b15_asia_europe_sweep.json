@@ -1,0 +1,89 @@
+[
+ {
+  "id": "japan-terra-b1",
+  "date": "2026-08-25",
+  "country": "Japan",
+  "customer": "Acquisition, Technology & Logistics Agency (ATLA) \u2014 Interceptor Drone Rapid Acquisition Program",
+  "vendor": "Terra Drone Corporation",
+  "system": "Terra B1 interceptor drone (mass production)",
+  "category": "interceptor-drone",
+  "value_usd": null,
+  "value_kind": null,
+  "value_original": "Undisclosed value and quantity",
+  "vehicle": "Rapid acquisition: 38 proposals \u2192 4 demonstrators \u2192 1 production award",
+  "summary": "Programme launched 5 June 2026 against Shahed-type long-range OWA drones. JMSDF ran trials 15 Jul \u2013 6 Aug, and Terra B1 was the only one of four models to pass. A model for test-then-buy at speed.",
+  "source": "https://defence-blog.com/japan-signs-deal-to-begin-mass-production-of-interceptor-drone/",
+  "source_name": "Defence Blog",
+  "source2": "https://thedefensepost.com/2026/08/26/japan-terra-b1-interceptor/",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "asia",
+   "interceptor",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "germany-skyranger-600-planned",
+  "date": "2025-10-10",
+  "country": "Germany",
+  "customer": "BAAINBw (Bundeswehr)",
+  "vendor": "Rheinmetall",
+  "system": "600+ Skyranger 30 on Boxer (planned follow-on)",
+  "category": "gun",
+  "value_usd": null,
+  "value_kind": "estimate",
+  "value_original": "Reported >\u20ac9B (planned; Rheinmetall guided \u20ac6\u20138B); not confirmed signed as of this sweep",
+  "vehicle": "Planned procurement",
+  "summary": "Handelsblatt-reported follow-on to the 2024 order for 19; the ministry confirmed talks. Serial deliveries 2027\u201328. Would be Europe's largest gun-based C-UAS buy.",
+  "source": "https://www.tagesspiegel.de/politik/verteidigung-bericht-grossbestellung-von-drohnenabwehrsystem-skyranger-14530964.html",
+  "source_name": "Tagesspiegel (citing Handelsblatt)",
+  "source2": "https://www.calibredefence.co.uk/rheinmetall-expects-billion-euro-order-for-skyranger/",
+  "confidence": "ESTIMATE",
+  "tags": [
+   "europe",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "skyranger35-ukraine",
+  "date": "2025-10-10",
+  "country": "Ukraine (EU-funded)",
+  "customer": "Unnamed EU member state for Ukraine (Windfall Profit Mechanism)",
+  "vendor": "Rheinmetall (Rheinmetall Italia)",
+  "system": "Skyranger 35 on Leopard 1 chassis",
+  "category": "gun",
+  "value_usd": null,
+  "value_kind": null,
+  "value_original": "'Three-digit million euro' (undisclosed)",
+  "vehicle": "Contract",
+  "summary": "35 mm AHEAD gun C-UAS for Ukraine, paid from EU windfall energy profits.",
+  "source": "https://esut.de/en/2025/10/meldungen/64247/ankuendigung-bestaetigt-sich-skyranger-35-vertrag-fuer-die-ukraine-besiegelt/",
+  "source_name": "ES&T",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "ukraine",
+   "last-12-months"
+  ]
+ },
+ {
+  "id": "korea-frontline-antidrone",
+  "date": "2026",
+  "country": "South Korea",
+  "customer": "DAPA",
+  "vendor": "TBD (Hanwha Systems vs LIG Nex1; lowest-bid)",
+  "system": "Frontline Anti-Drone Integrated System (border with North Korea; soft and hard kill)",
+  "category": "layered-system",
+  "value_usd": 88000000.0,
+  "value_kind": "estimate",
+  "value_original": "KRW 121.7B total budget; deployment by 2027",
+  "vehicle": "Programme (procurement contract due in 2026)",
+  "summary": "Follows the 2023 Critical Area Anti-Drone Integrated System that Hanwha won by bidding well under budget. Lowest-bidder selection.",
+  "source": "https://en.bizhankook.com/articles/29217.html",
+  "source_name": "Bizhankook",
+  "confidence": "ESTIMATE",
+  "tags": [
+   "asia",
+   "last-12-months"
+  ]
+ }
+]

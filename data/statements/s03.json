@@ -65,15 +65,16 @@
   "venue": "FY2027 Budget Request Overview",
   "quote": "$20.6 billion for Counter-Unmanned Systems (C-UXS), including $14.4 billion associated with the Drone Dominance mandatory funding request",
   "points": [
-   "424% increase over the FY26 enacted $3.9B.",
-   "JIATF-401 RDT&E request $580.3M, up from $6.5M.",
-   "Drone + counter-drone total $74B+ (triple FY26); much of it is mandatory funding that depends on reconciliation.",
-   "Army small C-UAS request $994M (FY26 enacted $596M)."
+   "$20.6B, up $16.6B or 424% over FY26 enacted ($3.9B); $14.4B of it is the mandatory 'Drone Dominance' request (budget overview book, generated 20 Apr 2026).",
+   "JIATF-401's own RDT&E line (PE 0205401JCA, Counter-Small UAS): $6.5M in FY26 (mandatory only) rising to $580.348M in FY27, then about $581M in FY28\u201329 and about $101M in FY30.",
+   "Army lines: C-UAS Development (0605347A) $140.4M \u2192 $359.2M; C-sUAS Advanced Technology (0603135A) $7.8M \u2192 $156.5M; C-sUAS Applied Research (0602135A) $12.6M \u2192 $26.5M. Navy C-UAS (0604636N) $20.8M.",
+   "JIATF-401 sits in the Joint Staff as a Chairman's Controlled Activity; the Secretary of the Army, as Executive Agent, holds its acquisition authority.",
+   "Army small C-UAS procurement request $994M (FY26 enacted $596M)."
   ],
-  "um_relevance": "The money is coming, but ~70% of the C-UxS request is mandatory 'Drone Dominance' funding that needs a reconciliation bill. The discretionary JIATF-401 line ($1.4B in the House bill) is the more reliable near-term source.",
+  "um_relevance": "The JIATF-401 line is RDT&E funding for rapid prototyping, integration and testing of C-sUAS \u2014 the money most suited to an early-stage interceptor. It holds at about $580M a year through FY29 in the request. Army C-UAS advanced technology jumps 20x, another prototype-stage source.",
   "source": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_Budget_Request_Overview_Book.pdf",
   "source_name": "DoW Comptroller",
-  "source2": "https://threatbeat.com/government-and-industry/heres-how-the-army-plans-to-spend-nearly-1-billion-in-procuring-small-counter-drone-tech/",
+  "source2": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/budget_justification/pdfs/03_RDT_and_E/RDTE_TJS_PB_2027.pdf",
   "topic": "budget"
  },
  {

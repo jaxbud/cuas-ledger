@@ -524,7 +524,7 @@
 
   VIEWS.history = function (v) {
     v.innerHTML = pageHead('Notable history · 2015 – Sep 2025', 'How counter-drone contracting got here',
-      'Thirty-two sourced milestones: the threats that forced each buying wave, the policy that shaped it, and the contracts that defined it. Recent milestones are included so the arc is complete.');
+      D.timeline.length + ' sourced milestones: the threats that forced each buying wave, the policy that shaped it, and the contracts that defined it. Recent milestones are included so the arc is complete.');
     var lg = h('<div class="legend"><span><i class="c"></i>Contract</span><span><i class="t"></i>Threat event</span><span><i class="p"></i>Policy</span><span><i class="b"></i>Budget</span></div>');
     var ol = h('<ol class="timeline"></ol>');
     ol.innerHTML = D.timeline.map(function (t) {

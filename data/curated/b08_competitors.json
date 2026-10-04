@@ -228,5 +228,30 @@
    "direct-competitor",
    "last-12-months"
   ]
+ },
+ {
+  "id": "zone5-paladin-lcei",
+  "date": "2025-12-01",
+  "country": "USA",
+  "customer": "DIU Counter-UAS NEXT (with Navy); DoD Blue UAS Cleared List; listed in JIATF-401 2026 QRG",
+  "vendor": "Zone 5 Technologies (90% acquired by Kongsberg, announced 16 Dec 2025)",
+  "system": "Paladin Low Collateral Effects Interceptor: autonomous hexacopter with quick-swap payload, onboard Echodyne EchoFlight MESA radar, battle management",
+  "category": "interceptor-drone",
+  "value_usd": null,
+  "value_kind": null,
+  "value_original": "Undisclosed (DIU OT prototype funding)",
+  "vehicle": "DIU OT prototype; Blue UAS listing",
+  "summary": "The closest architecture match to UM found so far: a low-collateral interceptor that carries its own radar, already Blue UAS-cleared and on JIATF-401's shelf. Zone 5 projected about $100M revenue in 2025 and now has Kongsberg's air-defence backing.",
+  "source": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/zone-5-selects-echodyne-radars-for-paladin-interceptor/",
+  "source_name": "Unmanned Airspace",
+  "source2": "https://kommunikasjon.ntb.no/pressemelding/18754604/kongsberg-kjoper-zone-5-og-gar-inn-i-utvikling-og-storskalaproduksjon-av-kostnadseffektive-missiler",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "interceptor",
+   "onboard-radar",
+   "direct-competitor",
+   "diu",
+   "last-12-months"
+  ]
  }
 ]

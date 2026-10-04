@@ -1,5 +1,13 @@
 [
  {
+  "date": "2025-12-16",
+  "acquirer": "Kongsberg",
+  "target": "Zone 5 Technologies (90%)",
+  "value_usd": null,
+  "note": "Maker of the Paladin low-collateral C-UAS interceptor (onboard radar) and low-cost missiles; ~$100M 2025 revenue; management keeps a minority stake",
+  "source": "https://kommunikasjon.ntb.no/pressemelding/18754604/kongsberg-kjoper-zone-5-og-gar-inn-i-utvikling-og-storskalaproduksjon-av-kostnadseffektive-missiler"
+ },
+ {
   "date": "2026-06-01",
   "acquirer": "Motorola Solutions",
   "target": "D-Fend Solutions",

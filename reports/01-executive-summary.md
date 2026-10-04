@@ -1,6 +1,6 @@
 # Report 1 — Executive summary
 
-*CUAS Ledger, 3 October 2026. Ten reports, 122 curated contracts and programmes, 921 federal awards from USAspending, 37 government statements, 30 contacts, 15 opportunities and 32 milestones. Every figure links to a source.*
+*CUAS Ledger, updated 4 October 2026. Ten reports, 200 curated contracts and programmes, 921 federal awards from USAspending, 51 government statements, 40 contacts, 18 opportunities and 34 milestones. Every figure links to a source. Live at https://jaxbud.github.io/cuas-ledger/*
 
 ## The market in one paragraph
 

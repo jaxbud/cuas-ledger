@@ -7,9 +7,9 @@
   "vendor": "Fortem Technologies",
   "system": "DroneHunter F700 (2 systems)",
   "category": "capture-net",
-  "value_usd": null,
-  "value_kind": null,
-  "value_original": "Not disclosed (2 systems)",
+  "value_usd": 3500000.0,
+  "value_kind": "firm",
+  "value_original": "$3.5M, 2 systems",
   "vehicle": "First Replicator 2 purchase",
   "summary": "First Replicator 2 buy by JIATF-401. Chosen because net capture with radar + onboard autonomy minimizes collateral damage \u2014 described as ideal for the homeland. Delivery by April 2026.",
   "source": "https://insideunmannedsystems.com/pentagon-task-force-picks-fortem-dronehunter-for-first-replicator-2-purchase/",
@@ -21,7 +21,8 @@
    "capture",
    "direct-competitor",
    "last-12-months"
-  ]
+  ],
+  "source2": "https://www.army.mil/article/289979"
  },
  {
   "id": "fortem-army-18m",
@@ -48,26 +49,27 @@
  },
  {
   "id": "fortem-world-cup",
-  "date": "2026-02",
+  "date": "2026-02-12",
   "country": "USA",
-  "customer": "FIFA World Cup 2026 venue security",
+  "customer": "DHS (World Cup 2026, 11 US venues)",
   "vendor": "Fortem Technologies",
-  "system": "DroneHunter / SkyDome",
+  "system": "DroneHunter net-capture interceptors + TrueView radar + SkyDome C2",
   "category": "capture-net",
   "value_usd": null,
   "value_kind": null,
-  "value_original": "Multi-million (undisclosed)",
+  "value_original": "Multimillion-dollar order (undisclosed)",
   "vehicle": "n/a",
-  "summary": "Venue protection systems for World Cup 2026.",
-  "source": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/global-government-spending-on-c-uas-reaches-usd29-billion-in-first-months-of-2026/",
-  "source_name": "Unmanned Airspace",
-  "confidence": "VENDOR",
+  "summary": "DHS's only kinetic C-UAS selection for the 2026 World Cup, chosen to remove drones without dropping debris on crowds. Deployed at 11 venues from 11 June 2026.",
+  "source": "https://breakingdefense.com/2026/02/dhs-taps-fortem-to-defend-us-world-cup-venues-from-drones",
+  "source_name": "Breaking Defense",
+  "confidence": "PUBLISHED",
   "tags": [
    "homeland",
    "world-cup",
    "capture",
    "last-12-months"
-  ]
+  ],
+  "source2": "https://www.businesswire.com/news/home/20260212003799/en/Fortem-Receives-Multimillion-dollar-Order-to-Defend-2026-FIFA-World-Cup-Venues-From-Drone-Threats"
  },
  {
   "id": "bae-apkws-dual-mode",

@@ -1,6 +1,6 @@
 # Report 6 — Deep dive: every major C-UAS contract, October 2025 to October 2026
 
-*Window: 1 October 2025 (start of US FY2026) to 3 October 2026. 85 curated awards and programmes, plus the federal ledger. Values are what the source reported; ceilings, obligations and estimates are labelled and never added together as if they were the same thing.*
+*Window: 1 October 2025 (start of US FY2026) to 4 October 2026. 119 curated awards and programmes, plus the federal ledger. Values are what the source reported; ceilings, obligations and estimates are labelled and never added together as if they were the same thing.*
 
 ## The year in five points
 
@@ -18,6 +18,7 @@
 | 30 Jan 2026 | Poland | Kongsberg + PGZ | SAN C-UAS, 18 batteries incl. interceptor drones | ~$4.2B (firm) |
 | Jul 2026 | Belgium + Netherlands | Kongsberg, Rheinmetall, Thales | NASAMS + 20 Skyranger 30 | €3.1B (firm) |
 | 29 Sep 2026 | JIATF-401 | 10 vendors | Domestic Shield / Marketplace IDIQs | $4.15B (ceilings) |
+| 23 Mar 2026 | UAE (FMS) | Raytheon / Northrop | 10 FS-LIDS, 240 Coyote Block 2, KuMRFS (emergency approval) | $2.1B (DSCA estimate) |
 | 5 Jun 2026 | Kuwait (FMS) | Anduril | Roadrunner-M, Anvil, Pulsar, Sentry, Lattice | $1.98B (DSCA estimate) |
 | 10 Jan 2026 | Colombia | TBD | National Anti-Drone Shield | ~$1.6B (programme) |
 | 5 Aug 2026 | DHS S&T | 12 companies | Department-wide C-UAS IDIQ | $1.5B (ceiling) |
@@ -32,13 +33,13 @@
 
 ## By what was bought (curated awards in the window)
 
-- **Layered systems (19):** the largest by value — national programmes, enterprise IDIQs, DHS, NNSA ([$140M to Anduril for four sites](https://www.exchangemonitor.com/nnsa-awards-anduril-140-million-contract-for-counter-drone-systems/)).
-- **Interceptor drones (13):** Perennial ($500M + $5.2M), TYTAN (Germany), Quantum Systems (15,000 for Ukraine's National Guard), Origin BLAZE (Latvia, Estonia, Belgium), Cambridge Aerospace Skyhammer (UK), UK LCADE (£3.16M to three SMEs), SYPAQ Corvo Strike (Australia), Alpine Eagle (Germany plus three), Ukrainian interceptors for the Gulf.
+- **Layered systems (29):** the largest by value — national programmes, enterprise IDIQs, DHS, NNSA ([$140M to Anduril for four sites](https://www.exchangemonitor.com/nnsa-awards-anduril-140-million-contract-for-counter-drone-systems/)).
+- **Interceptor drones (17):** Perennial ($500M + $5.2M Bumblebee V2), TYTAN (Germany; 1,000+ METIS for Ukraine), Quantum Systems (15,000 for Ukraine's National Guard), Origin BLAZE (Latvia, Estonia, Belgium), Cambridge Aerospace Skyhammer (UK), UK LCADE (£3.16M to three SMEs), SYPAQ Corvo Strike (Australia), Alpine Eagle (Germany plus three), Merops for Lithuania (48), Japan's Terra B1 (production award, Aug 2026), Zone 5's Paladin (Blue UAS-listed, onboard radar), Ukrainian interceptors for the Gulf.
 - **Grants (12):** all twelve FEMA World Cup/NCR awards, from $34.6M (California) to $5.3M (Kansas).
-- **RF / EW defeat (8):** DroneShield ($500M IDIQ plus European orders of US$61.6M and A$49.6M), CACI SkyValor, AV Titan, Taiwan's 635 portable sets.
-- **Capture (5):** Fortem (Replicator 2, Army $18M, World Cup), OpenWorks SkyWall (Army), Airobotics Iron Drone Raider (European NATO customer). **This is UM's lane, and every capture award in the window went to a net system.**
-- **Missiles & rockets (5):** BAE APKWS dual-mode ($145M), L3Harris VAMPIRE (Army up to $106M; Navy selection), AV Freedom Eagle FE-1 ($95.9M), Lockheed Grizzly.
-- **Guns & smart fire control (6), sensing (6), C2 (4), lasers (3), HPM (1: Epirus HAVOC, $11M), R&D (2).**
+- **RF / EW defeat (9):** DroneShield ($500M IDIQ plus European orders of US$61.6M and A$49.6M), CACI SkyValor, AV Titan, Taiwan's 635 portable sets.
+- **Capture (6):** Fortem (Replicator 2 $3.5M, Army $18M, DHS World Cup order, USMC support), OpenWorks SkyWall (Army), Airobotics Iron Drone Raider (European NATO customer). **This is UM's lane, and every capture award in the window went to a net system.**
+- **Missiles & rockets (6):** BAE APKWS dual-mode ($145M), L3Harris VAMPIRE (Army up to $106M; Navy selection), AV Freedom Eagle FE-1 ($95.9M), Lockheed Grizzly, UK LMMs for Ukraine (£390M).
+- **Guns & smart fire control (11), sensing (11), services (6), C2 (5), lasers (3), HPM (1: Epirus HAVOC, $11M), R&D (2), cyber takeover (1).** Large FMS approvals in the window: UAE FS-LIDS ($2.1B), Kuwait/Anduril ($1.98B), Jordan KuMRFS ($280M).
 
 ## Month by month
 

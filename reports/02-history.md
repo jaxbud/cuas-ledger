@@ -1,6 +1,6 @@
 # Report 2 — Notable history: how counter-drone contracting got here (2015 – September 2025)
 
-*The older record, compressed to what still shapes buying today. A sourced timeline, with 32 milestones, is on the History page.*
+*The older record, compressed to what still shapes buying today. A sourced timeline, with 34 milestones, is on the History page.*
 
 ## Phase 1 — Urgent fixes (2015–2019)
 

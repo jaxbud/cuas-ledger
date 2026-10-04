@@ -20,21 +20,22 @@
  },
  {
   "id": "fy27-cr-2026-10",
-  "date": "2026-09-30",
+  "date": "2026-09-02",
   "speaker": "Congress / President",
   "role": "Appropriations",
   "org": "U.S. Government",
-  "venue": "Continuing Appropriations and Extensions Act, 2027",
+  "venue": "Continuing Appropriations and Extensions Act, 2027 (H.R. 6500, P.L. 119-103), signed 2 Sep 2026",
   "quote": "(CR) Funding through December 11, 2026 at FY26 levels; no new production starts",
   "points": [
-   "Most programs held at FY26 levels until Dec 11, 2026.",
-   "Bars War Department funds for new production of items not funded for production in FY26 or earlier.",
+   "Senate passed it 90-6 (8 Aug) and the House 370-48 (1 Sep); signed 2 Sep 2026.",
+   "Most programs held at FY26 levels until 11 Dec 2026.",
+   "Bars DoW funds for new production starts, new multiyear contracts or production-rate increases unless the CR says otherwise.",
    "The $350B defense reconciliation request (which carries most 'Drone Dominance' money) is uncertain."
   ],
   "um_relevance": "Near-term (Q4 2026) money comes from existing lines: RDT&E, O&M, prototyping (OTA), SBIR, and orders on already-awarded IDIQs. New C-UAS production starts wait for full-year appropriations.",
-  "source": "https://www.govconwire.com/articles/continuing-resolution-fy2027-funding-signed",
-  "source_name": "GovConWire",
-  "source2": "https://www.csis.org/analysis/tracking-fy-2027-defense-appropriations-reconciliation-and-supplemental-request",
+  "source": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-6500/",
+  "source_name": "White House",
+  "source2": "https://www.govconwire.com/articles/continuing-resolution-fy2027-funding-signed",
   "topic": "budget"
  }
 ]

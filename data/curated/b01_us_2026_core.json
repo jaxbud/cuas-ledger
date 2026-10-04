@@ -29,7 +29,7 @@
   "country": "USA",
   "customer": "U.S. Army / JIATF-401 (Domestic Shield & C-UAS Marketplace)",
   "vendor": "Digital Force Technologies",
-  "system": "C-UAS products (marketplace)",
+  "system": "SeraphimOS sensor-fusion and autonomous threat classification (C-UAS products)",
   "category": "layered-system",
   "value_usd": 500000000.0,
   "value_kind": "ceiling",
@@ -38,7 +38,7 @@
   "summary": "One of 10 base IDIQ awards (collective $4.15B ceiling, ~$50M obligated at award) for the Domestic Shield effort and DoW C-UAS Marketplace; JIATF-401 said more IDIQs would follow to reach a $7B program ceiling.",
   "source": "https://www.army.mil/article/295771/jiatf_401_advances_domestic_shield_with_counter_uas_contract_awards",
   "source_name": "Army.mil",
-  "source2": "https://breakingdefense.com/2026/09/army-awards-up-to-7b-in-sprawling-counter-drone-idiq/",
+  "source2": "https://interestingengineering.com/military/us-selects-sensor-fusing-drone-defenses",
   "confidence": "PUBLISHED",
   "tags": [
    "domestic-shield",

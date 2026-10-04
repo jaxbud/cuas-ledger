@@ -107,5 +107,27 @@
    "interceptor",
    "last-12-months"
   ]
+ },
+ {
+  "id": "uk-ukraine-ad-package-2026",
+  "date": "2026-02-12",
+  "country": "Ukraine (UK-funded)",
+  "customer": "UK MOD for Ukraine",
+  "vendor": "Thales UK (LMM, Belfast) and Air Defence Consortium suppliers",
+  "system": "1,000 Lightweight Multirole Missiles (\u00a3390M), 1,200 more air-defence missiles, Rapid Ranger launchers, \u00a3150M to PURL",
+  "category": "missile-rocket",
+  "value_usd": 681000000.0,
+  "value_kind": "firm",
+  "value_original": "\u00a3500M package (~$681M)",
+  "vehicle": "Government package",
+  "summary": "Healey: to help Ukraine defend against 'relentless drone and missile attacks'. LMMs are widely used against Shahed-type drones.",
+  "source": "https://www.gov.uk/government/news/uk-announces-urgent-new-air-defence-package-for-ukraine-worth-over-half-a-billion-pounds",
+  "source_name": "UK Government",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "ukraine",
+   "europe",
+   "last-12-months"
+  ]
  }
 ]

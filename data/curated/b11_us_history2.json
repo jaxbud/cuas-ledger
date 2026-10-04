@@ -106,5 +106,28 @@
    "history",
    "directed-energy"
   ]
+ },
+ {
+  "id": "citadel-cbp-titan",
+  "date": "2019",
+  "country": "USA",
+  "customer": "U.S. Customs and Border Protection",
+  "vendor": "Citadel Defense (later part of BlueHalo, now AeroVironment)",
+  "system": "6 Titan portable RF C-UAS for the southern border",
+  "category": "rf-soft-kill",
+  "value_usd": 1200000.0,
+  "value_kind": "firm",
+  "value_original": "~$1.2M",
+  "vehicle": "Contract",
+  "summary": "Early border C-UAS buy; Titan later became AV's Titan, now ordered at scale by JIATF-401 ($80.6M task order, 2026).",
+  "source": "https://defensedaily.com/cbp-awards-small-contract-citadel-defense-counter-drone-systems/homeland-security",
+  "source_name": "Defense Daily",
+  "source2": "https://digital-release.fox5sandiego.com/news/local-company-wins-cbp-contract-for-border-defense/amp/",
+  "confidence": "PUBLISHED",
+  "tags": [
+   "history",
+   "homeland",
+   "border"
+  ]
  }
 ]
