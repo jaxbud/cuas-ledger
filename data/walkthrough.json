@@ -1,0 +1,441 @@
+{
+ "updated": "2026-10-05",
+ "threat": {
+  "headline": "Cheap drones are now a daily problem, at home as well as overseas.",
+  "stats": [
+   {
+    "value": "1\u20132",
+    "label": "drone incursions over US military bases per day",
+    "source": "https://breakingdefense.com/2026/01/pentagon-expands-task-forces-counter-drone-authorities-handing-commanders-more-flexibility/",
+    "source_name": "NORTHCOM via Breaking Defense, Jan 2026"
+   },
+   {
+    "value": "378",
+    "label": "cartel drones detected on the southern border in about five weeks",
+    "source": "https://www.foxnews.com/politics/dhs-issues-stark-warning-300-hostile-cartel-drones-detected-southern-border",
+    "source_name": "Department of War figures, Sep 2026"
+   },
+   {
+    "value": "1,700",
+    "label": "unauthorized drones detected at 2026 World Cup venues",
+    "source": "https://fedscoop.com/fbi-drone-training-center-demand-outpaces-capacity/",
+    "source_name": "FedScoop, Aug 2026"
+   },
+   {
+    "value": "350\u2013500",
+    "label": "Shahed-type attack drones Russia launches at Ukraine per day",
+    "source": "https://dronexl.co/2026/03/29/zelenskyy-ukraine-2000-interceptor-drones-per-day-budget",
+    "source_name": "Zelensky to Reuters, Mar 2026"
+   }
+  ],
+  "quote": {
+   "text": "The threat posed from unmanned systems is going to far exceed the threat that we saw from IEDs.",
+   "who": "Brig. Gen. Matt Ross, Director, JIATF-401 (the Pentagon's counter-drone task force)",
+   "source": "https://www.defenseone.com/threats/2026/03/drone-threat-will-far-exceed-gwots-roadside-bomb-threat-counter-drone-task-force-director/411921"
+  }
+ },
+ "money": {
+  "headline": "The Pentagon is now spending at scale, and buying interceptors by the thousand.",
+  "stats": [
+   {
+    "value": "$20.6B",
+    "label": "FY2027 request for counter-unmanned systems, up 424% from FY2026",
+    "source": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_Budget_Request_Overview_Book.pdf",
+    "source_name": "DoW budget overview, Apr 2026"
+   },
+   {
+    "value": "$7B",
+    "label": "ceiling on JIATF-401's new multi-vendor counter-drone contract vehicle",
+    "source": "https://defensescoop.com/2026/09/29/pentagon-task-force-army-announce-billions-in-counter-drone-tech-awards/",
+    "source_name": "DefenseScoop, Sep 2026"
+   },
+   {
+    "value": "$580M/yr",
+    "label": "JIATF-401 prototyping budget requested for each of FY27\u2013FY29",
+    "source": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/budget_justification/pdfs/03_RDT_and_E/RDTE_TJS_PB_2027.pdf",
+    "source_name": "Joint Staff RDT&E justification"
+   },
+   {
+    "value": "13,000",
+    "label": "interceptor drones the Army bought in eight days in March 2026",
+    "source": "https://www.armytimes.com/unmanned/2026/04/20/us-army-turns-to-ukraine-tested-drones-to-counter-iranian-uav-threat/",
+    "source_name": "Army Secretary Driscoll, Apr 2026"
+   }
+  ]
+ },
+ "gaps": [
+  {
+   "id": "deploy",
+   "title": "Deploying defense takes trucks, crews and setup time",
+   "problem": "Most systems arrive on a vehicle, need a site built around them, and need a trained operator to aim, fly or monitor them. In a fast-moving fight, or at a base that has nothing installed, that is time and people nobody has.",
+   "evidence": [
+    {
+     "text": "L3Harris's VAMPIRE counter-drone kit takes about two hours and two people to install.",
+     "source": "https://defensescoop.com/2022/08/24/new-3-billion-us-military-aid-package-for-ukraine-includes-counter-drone-systems/"
+    },
+    {
+     "text": "The Army's main counter-drone radar (KuMRFS) deploys in about 30 minutes, at a site or on a vehicle.",
+     "source": "https://thedefensepost.com/2026/02/27/us-ku-band-radar-jordan/"
+    },
+    {
+     "text": "JIATF-401's director wants installations to set up counter-drone gear \"like a Ring doorbell,\" without vendor technicians.",
+     "source": "https://www.defenseone.com/threats/2026/03/drone-threat-will-far-exceed-gwots-roadside-bomb-threat-counter-drone-task-force-director/411921"
+    },
+    {
+     "text": "Trained operators are the bottleneck: about 60 US police officers held counter-drone mitigation certification by June 2026, out of 18,500+ agencies.",
+     "source": "https://www.lawfaremedia.org/article/the-counter-uas-certification-bottleneck"
+    },
+    {
+     "text": "Ukraine's president said its interceptors have already outnumbered its trained operators.",
+     "source": "https://news.liga.net/en/politics/news/ukraine-produces-up-to-1000-interceptors-per-day-but-there-are-not-enough-operators-zelensky"
+    }
+   ],
+   "status": "Open",
+   "fit": "core",
+   "fit_note": "This is UM's main advantage: one soldier carries the canister, launches it, and goes back to the mission while the interceptor's own sensors do the work."
+  },
+  {
+   "id": "rf",
+   "title": "Jammers can't stop a drone that isn't transmitting",
+   "problem": "The most common defenses jam or hijack the radio link. A drone flying a pre-programmed route, or simply staying radio-silent, gives them nothing to grab.",
+   "evidence": [
+    {
+     "text": "The first approved technology list for US police counter-drone work is expected to be radio-frequency only: detection, jamming and takeover.",
+     "source": "https://public-inspection.federalregister.gov/2026-13609.pdf"
+    },
+    {
+     "text": "NORTHCOM's response to drones over a strategic US base in the first hours of the Iran war was jamming.",
+     "source": "https://defensescoop.com/2026/03/24/drone-incursions-strategic-us-military-base-jamming/"
+    },
+    {
+     "text": "Cartels on the southern border keep changing tactics to avoid detection.",
+     "source": "https://defensescoop.com/2026/09/24/cartel-drone-operations-southern-border-getting-more-creative-task-force-warns/"
+    }
+   ],
+   "status": "Partly filled",
+   "fit": "strong",
+   "fit_note": "UM's onboard radar and EO/IR camera track the drone itself, so it doesn't matter whether the target is transmitting."
+  },
+  {
+   "id": "home",
+   "title": "The strongest weapons can't be used over US towns",
+   "problem": "Guns, missiles, lasers and microwave weapons work overseas, but falling rounds, debris and beams over neighborhoods, airports and stadiums are not acceptable at home.",
+   "evidence": [
+    {
+     "text": "NORTHCOM said lasers, microwave weapons, missiles and guns are not appropriate for homeland drone defense.",
+     "source": "https://www.twz.com/air/lasers-microwaves-missiles-guns-not-on-the-table-for-domestic-drone-defense"
+    },
+    {
+     "text": "A counter-drone laser fired near Fort Bliss shut El Paso's airspace for more than seven hours in February 2026.",
+     "source": "https://www.npr.org/2026/02/27/g-s1-111794/lawmakers-say-us-military-used-laser-to-take-down-border-protection-drone"
+    },
+    {
+     "text": "JIATF-401 has asked for kinetic interceptors without explosive warheads for homeland use.",
+     "source": "https://www.army.mil/article/289166/media_roundtable_with_brig_gen_matt_ross_joint_interagency_task_force_401_commander"
+    },
+    {
+     "text": "The Pentagon's first Replicator 2 purchase was a net-capture interceptor, picked because capture avoids collateral damage at home.",
+     "source": "https://insideunmannedsystems.com/pentagon-task-force-picks-fortem-dronehunter-for-first-replicator-2-purchase/"
+    }
+   ],
+   "status": "Being filled \u2014 competitive",
+   "fit": "strong",
+   "fit_note": "UM's first version captures the drone with a tethered rope and brings it down under control: the low-collateral approach buyers are asking for."
+  },
+  {
+   "id": "bases",
+   "title": "Most US bases still have no drone defense",
+   "problem": "Coverage is patchy and expensive. Fixed systems cost tens of millions per site, so many installations, including training bases, sit uncovered.",
+   "evidence": [
+    {
+     "text": "The DoD Inspector General found major bases, including Luke AFB where most F-35 pilots train, without clear counter-drone coverage.",
+     "source": "https://www.defensenews.com/unmanned/2026/01/28/bureaucratic-confusion-leaves-dod-sites-exposed-to-drones-dod-ig-says/"
+    },
+    {
+     "text": "The Congressional Budget Office estimates about $74M to equip one installation with layered defense, plus about $5M a year to run it.",
+     "source": "https://ideas.repec.org/p/cbo/report/62262.html"
+    },
+    {
+     "text": "In January 2026 commanders gained authority to engage drones beyond the fence line, which widens the area each base must cover.",
+     "source": "https://breakingdefense.com/2026/01/pentagon-expands-task-forces-counter-drone-authorities-handing-commanders-more-flexibility/"
+    }
+   ],
+   "status": "Open",
+   "fit": "strong",
+   "fit_note": "A canister system needs no installation, so it can cover a site the day it arrives, or move with the unit."
+  },
+  {
+   "id": "cost",
+   "title": "Defense still costs more than the attack",
+   "problem": "Missiles costing $100,000+ are fired at drones costing a few thousand. The new answer is cheap interceptor drones, but most are destroyed on every shot.",
+   "evidence": [
+    {
+     "text": "The Army pays about $15,000 per Merops interceptor and aims for $3,000\u20135,000 at scale, against $30,000\u201350,000 per Shahed.",
+     "source": "https://www.twz.com/land/cheap-interceptor-drones-proven-in-ukraine-protected-u-s-troops-against-iranian-shaheds"
+    },
+    {
+     "text": "Ukraine reports needing 2\u20133 interceptors for each Shahed.",
+     "source": "https://dronexl.co/2026/03/29/zelenskyy-ukraine-2000-interceptor-drones-per-day-budget"
+    }
+   ],
+   "status": "Closing",
+   "fit": "partial",
+   "fit_note": "UM is designed to be recovered and flown again. Measuring the recovery rate is how UM turns that into a cost advantage."
+  }
+ ],
+ "matrix": {
+  "columns": [
+   {
+    "id": "carry",
+    "label": "One soldier carries and launches it, no vehicle or site"
+   },
+   {
+    "id": "noaim",
+    "label": "No aiming or piloting needed"
+   },
+   {
+    "id": "home",
+    "label": "Usable over populated US areas"
+   },
+   {
+    "id": "dark",
+    "label": "Works on drones that aren't transmitting"
+   },
+   {
+    "id": "reuse",
+    "label": "Recovered and reused"
+   }
+  ],
+  "rows": [
+   {
+    "name": "Unified Mechanics",
+    "example": "Canister-launched capture interceptor",
+    "ours": true,
+    "carry": "yes",
+    "noaim": "yes",
+    "home": "yes",
+    "dark": "yes",
+    "reuse": "yes",
+    "note": "By design; deployment time, training load and recovery rate are being measured."
+   },
+   {
+    "name": "Handheld RF jammers",
+    "example": "DroneShield DroneGun",
+    "carry": "yes",
+    "noaim": "no",
+    "home": "yes",
+    "dark": "no",
+    "reuse": "yes",
+    "source": "https://newatlas.com/droneshield-dronegun-mkiii-jamming-drones/60579/"
+   },
+   {
+    "name": "Shoulder-fired nets",
+    "example": "OpenWorks SkyWall",
+    "carry": "yes",
+    "noaim": "no",
+    "home": "yes",
+    "dark": "yes",
+    "reuse": "yes",
+    "source": "https://openworksengineering.com/skywall-patrol/"
+   },
+   {
+    "name": "Portable explosive interceptors",
+    "example": "Origin BLAZE, Askari",
+    "carry": "yes",
+    "noaim": "yes",
+    "home": "no",
+    "dark": "yes",
+    "reuse": "no",
+    "source": "https://soldiersystems.net/2025/09/10/origin-robotics-unveils-blaze-a-cost-effective-drone-interceptor-with-ai-powered-computer-vision/"
+   },
+   {
+    "name": "Net-capture drones",
+    "example": "Fortem DroneHunter",
+    "carry": "no",
+    "noaim": "yes",
+    "home": "yes",
+    "dark": "yes",
+    "reuse": "yes",
+    "source": "https://fortemtech.com/products/dronehunter-f700/"
+   },
+   {
+    "name": "Missile interceptors",
+    "example": "Raytheon Coyote",
+    "carry": "no",
+    "noaim": "yes",
+    "home": "no",
+    "dark": "yes",
+    "reuse": "no",
+    "source": "https://www.twz.com/drastic-increase-in-army-coyote-drone-interceptor-purchase-plans"
+   },
+   {
+    "name": "Robotic guns",
+    "example": "Allen Control Systems Bullfrog",
+    "carry": "no",
+    "noaim": "yes",
+    "home": "no",
+    "dark": "yes",
+    "reuse": "na",
+    "source": "https://loadoutroom.com/bullfrog-by-allen-control-systems-ai-meets-firepower/"
+   },
+   {
+    "name": "Lasers and microwave",
+    "example": "Epirus Leonidas, AV LOCUST",
+    "carry": "no",
+    "noaim": "yes",
+    "home": "no",
+    "dark": "yes",
+    "reuse": "yes",
+    "source": "https://www.army-technology.com/projects/leonidas-high-power-microwave-hpm-system-usa/"
+   }
+  ],
+  "footnote": "Ratings follow each vendor's published launch method and the homeland rules NORTHCOM described. \"Usable over populated US areas\" reflects current DoD homeland guidance, not a legal ruling."
+ },
+ "fit": {
+  "headline": "Carry it. Launch it. Get back to the mission.",
+  "lede": "Unified Mechanics builds a drone interceptor that one soldier carries in a canister and launches with no setup. Once it's in the air, its own radar and camera find and track the target, so nobody has to aim it or fly it.",
+  "points": [
+   {
+    "title": "Ultra-portable",
+    "text": "The interceptor travels and launches from a man-portable canister. No truck, no trailer, no launch pad, no site to build."
+   },
+   {
+    "title": "No thought required to deploy",
+    "text": "Onboard radar and EO/IR do the tracking. The soldier launches it and turns back to the mission, with no aiming and no piloting."
+   },
+   {
+    "title": "Safe to use at home",
+    "text": "The first version captures the drone with a tethered rope and lowers it under control, the low-collateral approach US buyers are asking for. A kinetic ram follows in later versions."
+   },
+   {
+    "title": "Sees drones that stay silent",
+    "text": "Its sensors don't depend on the target transmitting, unlike jammers."
+   },
+   {
+    "title": "Comes back",
+    "text": "Designed to be recovered and reused, not destroyed on every shot."
+   }
+  ],
+  "milestones_title": "What we're proving next",
+  "milestones": [
+   "Time from canister to airborne, measured against the minutes or hours other systems take to set up",
+   "Training time for a soldier to qualify",
+   "Pursuit speed against fast FPV drones",
+   "Recovery rate and number of flights per airframe"
+  ],
+  "competition_note": "Competitors with parts of this: Fortem's DroneHunter captures drones but launches from a fixed pad with a ground radar. Zone 5's Paladin carries its own radar and is low-collateral; it has no published man-portable launch. Origin BLAZE and Askari are man-portable but carry warheads.",
+  "setup": {
+   "title": "What it takes to get each system into action",
+   "rows": [
+    {
+     "name": "Unified Mechanics",
+     "what": "Canister interceptor",
+     "val": "One soldier carries the canister and launches it. No site, no vehicle, no aiming.",
+     "ours": true,
+     "note": "By design; launch time being measured"
+    },
+    {
+     "name": "L3Harris VAMPIRE",
+     "what": "Truck-mounted rocket kit",
+     "val": "About two hours and two people to install on a vehicle",
+     "source": "https://defensescoop.com/2022/08/24/new-3-billion-us-military-aid-package-for-ukraine-includes-counter-drone-systems/"
+    },
+    {
+     "name": "Army KuMRFS radar",
+     "what": "Sensor for Coyote / LIDS",
+     "val": "About 30 minutes to deploy at a site or on a vehicle",
+     "source": "https://thedefensepost.com/2026/02/27/us-ku-band-radar-jordan/"
+    },
+    {
+     "name": "Fortem DroneHunter",
+     "what": "Net-capture drone",
+     "val": "Launches from a base pad, cued by a separate ground radar",
+     "source": "https://fortemtech.com/products/dronehunter-f700/"
+    },
+    {
+     "name": "Perennial Merops",
+     "what": "Explosive interceptor drone",
+     "val": "Launcher fits in a pickup-truck bed, with a ground control station",
+     "source": "https://en.wikipedia.org/wiki/Merops_(weapon)"
+    },
+    {
+     "name": "Handheld jammers",
+     "what": "DroneShield DroneGun",
+     "val": "A soldier has to aim it at the drone for the whole engagement",
+     "source": "https://newatlas.com/droneshield-dronegun-mkiii-jamming-drones/60579/"
+    }
+   ]
+  }
+ },
+ "path": {
+  "headline": "How we get on contract",
+  "steps": [
+   {
+    "title": "Get tested where buyers watch",
+    "text": "The Air Force's Point Defense Battle Lab asked for drone-on-drone interceptors for US bases. The Navy's Thunderdome event sought interceptors under 18 lb, faster than 85 knots and under $25,000, that operate non-kinetically. UM's capture effector is non-kinetic by design, so it fits that profile.",
+    "sources": [
+     "https://migflug.com/jetflights/air-force-battle-lab-counter-drone-options-2026/",
+     "https://samsearch.co/gov-explore/federal/thunderdome-2026-low-cost-interceptors-for-counter-uas/NAWCAD-SN-26-Thunderdome"
+    ]
+   },
+   {
+    "title": "Submit to the front door",
+    "text": "JIATF-401's Commercial Solutions Opening takes solution briefs on a rolling basis through 2028. Its Mobile office is looking for rapidly transportable systems for border defense and special events.",
+    "sources": [
+     "https://defensescoop.com/2026/02/27/jiatf-401-commercial-solutions-opening-cso-counter-uas/"
+    ]
+   },
+   {
+    "title": "Get on the shelf",
+    "text": "Listing on the Pentagon's counter-drone marketplace (cuas.mil) and the Army's G-TEAD fast lane lets units buy directly. Merops, which the Army bought by the thousand in 2026, was fast-tracked through G-TEAD.",
+    "sources": [
+     "https://www.defensenews.com/news/pentagon-congress/2026/08/10/pentagon-launches-online-marketplace-for-counter-uas-technology/",
+     "https://www.defensenews.com/global/europe/2026/05/05/nato-nations-size-up-an-interceptor-drone-bazaar-where-low-price-is-everything/"
+    ]
+   },
+   {
+    "title": "Plug into the network",
+    "text": "Anduril's Lattice is now the Army's counter-drone command system, and a common US-UK data standard is becoming a listing requirement. Integrating with both lets any unit add UM to its existing setup.",
+    "sources": [
+     "https://defensescoop.com/2026/03/14/anduril-20-billion-dollar-army-contract/",
+     "https://www.globalsecurity.org/military/library/news/2026/03/mil-260312-arnews02.htm"
+    ]
+   },
+   {
+    "title": "Scale through the big vehicles",
+    "text": "Twelve companies now hold slots on JIATF-401's $7B contract and DHS has a $1.5B vehicle. Teaming with holders that lack an airborne interceptor is the route to volume orders at home and abroad.",
+    "sources": [
+     "https://www.army.mil/article/295771/jiatf_401_advances_domestic_shield_with_counter_uas_contract_awards",
+     "https://insideunmannedsystems.com/dhs-awards-1-5-billion-counter-uas-contract-to-12-companies/"
+    ]
+   }
+  ]
+ },
+ "open_now": [
+  {
+   "title": "JIATF-401 Commercial Solutions Opening (W912CH-26-S-X001)",
+   "when": "Rolling through 31 Dec 2028",
+   "source": "https://defensescoop.com/2026/02/27/jiatf-401-commercial-solutions-opening-cso-counter-uas/"
+  },
+  {
+   "title": "USASOC counter-small-UAS open call ($200K\u2013$2M awards)",
+   "when": "Closes 1 Dec 2026",
+   "source": "https://www.bwcoconsulting.com/fod/usasoc-csuas"
+  },
+  {
+   "title": "Air Force Point Defense Battle Lab exercises",
+   "when": "Recurring; next calls expected 2027",
+   "source": "https://migflug.com/jetflights/air-force-battle-lab-counter-drone-options-2026/"
+  },
+  {
+   "title": "Navy Thunderdome low-cost interceptor event",
+   "when": "Annual; 2027 call expected mid-year",
+   "source": "https://samsearch.co/gov-explore/federal/thunderdome-2026-low-cost-interceptors-for-counter-uas/NAWCAD-SN-26-Thunderdome"
+  },
+  {
+   "title": "DoD SBIR/STTR counter-UAS topics",
+   "when": "Rolling; program reauthorized through 2031",
+   "source": "https://www.mondaq.com/unitedstates/government-contracts-procurement-ppp/1774902/sbirsttr-programs-reauthorized-after-six-month-lapse"
+  }
+ ]
+}

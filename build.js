@@ -2,7 +2,7 @@
 'use strict';
 
 // CUAS Ledger build. Zero dependencies.
-//   node build.js          -> dist/index.html (standalone, for the domain)
+//   node build.js          -> dist/index.html (investor briefing), dist/ledger/index.html (full research ledger)
 //                             dist/artifact.html (body-only, for Artifact publish)
 //                             dist/data.json, dist/reports/*.md, dist/robots.txt, dist/.nojekyll
 //   CUSTOM_DOMAIN=cuasledger.com node build.js  -> also writes dist/CNAME once the domain is owned
@@ -168,15 +168,77 @@ ${main}
 </html>
 `;
 
-fs.mkdirSync(path.join(DIST, 'reports'), { recursive: true });
-fs.writeFileSync(path.join(DIST, 'index.html'), standalone);
+// ---------- investor briefing (site root) ----------
+const walk = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'walkthrough.json'), 'utf8'));
+for (const sec of ['threat', 'money']) for (const st of walk[sec].stats) if (!/^https?:/.test(st.source)) fail([`walkthrough ${sec}: stat without source`]);
+for (const g of walk.gaps) for (const e of g.evidence) if (!/^https?:/.test(e.source)) fail([`walkthrough gap ${g.id}: evidence without source`]);
+
+// Department of War buyers only: no foreign, FMS or civilian-agency awards.
+const NON_DOW = /FMS|DHS|Homeland|FEMA|TSA|FAA|Aviation Administration|Energy|NNSA|Marshals|Prisons|Department of State|Secret Service|Customs|Coast Guard|for Ukraine|Grant/i;
+function service(c) {
+  const s = c.customer;
+  if (/JIATF|Joint Interagency|Replicator/i.test(s)) return 'JIATF-401';
+  if (/Marine/i.test(s)) return 'Marine Corps';
+  if (/Navy|NAVAIR|NAVSEA|Naval/i.test(s)) return 'Navy';
+  if (/Air Force|AFRL|Air Combat|AFLCMC/i.test(s)) return 'Air Force';
+  if (/SOCOM|Special Operations/i.test(s)) return 'SOCOM';
+  if (/Army|ACC|PAE|RCCTO|PEO|DEVCOM|Redstone/i.test(s)) return 'Army';
+  if (/DIU|Defense Innovation/i.test(s)) return 'DIU';
+  if (/NORTHCOM|Northern Command/i.test(s)) return 'NORTHCOM';
+  if (/DLA|Defense Logistics/i.test(s)) return 'DLA';
+  if (/Department of War|DoD|DoW|Secretary of Defense|Microelectronics|DCMA|Defense Contract/i.test(s)) return 'DoW / OSD';
+  return null;
+}
+const dod = site.contracts
+  .filter(c => /^USA$/.test(c.country) && !NON_DOW.test(c.customer) && c.category !== 'grant')
+  .map(c => ({ ...c, service: service(c) }))
+  .filter(c => c.service)
+  .map(c => ({ date: c.date, recent: c.recent, service: c.service, vendor: c.vendor, system: c.system, customer: c.customer,
+    value_usd: c.value_usd, value_kind: c.value_kind, source: c.source, source_name: c.source_name }));
+const services = [...new Set(dod.map(c => c.service))].sort();
+const briefPayload = JSON.stringify({ walk, dod, services, fy: site.stats.federal_by_fy }).replace(/</g, '\\u003c');
+const bcss = fs.readFileSync(path.join(ROOT, 'src', 'walkthrough.css'), 'utf8');
+const bjs = fs.readFileSync(path.join(ROOT, 'src', 'walkthrough.js'), 'utf8');
+const briefHead = `<title>Unified Mechanics Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="${FONTS}">
+<style>
+${bcss}
+</style>`;
+const briefMain = `<div id="app"><noscript><p style="padding:24px">This briefing needs JavaScript.</p></noscript></div>
+<script type="application/json" id="brief-data">${briefPayload}</script>
+<script>
+${bjs}
+</script>`;
+const brief = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Counter-drone market gaps, Department of War contracts, and where Unified Mechanics fits.">
+<link rel="canonical" href="${SITE_URL}">
+<meta name="robots" content="noindex, nofollow">
+${briefHead}
+</head>
+<body>
+${briefMain}
+</body>
+</html>
+`;
+
+const LEDGER = path.join(DIST, 'ledger');
+fs.mkdirSync(path.join(LEDGER, 'reports'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'index.html'), brief);
+fs.writeFileSync(path.join(DIST, 'briefing-artifact.html'), `${briefHead}\n${briefMain}\n`);
+fs.writeFileSync(path.join(LEDGER, 'index.html'), standalone.replace(`<link rel="canonical" href="${SITE_URL}">`, `<link rel="canonical" href="${SITE_URL}ledger/">`));
 fs.writeFileSync(path.join(DIST, 'artifact.html'), body);
-fs.writeFileSync(path.join(DIST, 'data.json'), JSON.stringify(site, null, 1));
+fs.writeFileSync(path.join(LEDGER, 'data.json'), JSON.stringify(site, null, 1));
 if (CUSTOM_DOMAIN) fs.writeFileSync(path.join(DIST, 'CNAME'), CUSTOM_DOMAIN + '\n');
 // Unlisted by default: the UM outlook is internal, so keep search engines out.
 fs.writeFileSync(path.join(DIST, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
 fs.writeFileSync(path.join(DIST, '.nojekyll'), '');
-for (const f of reportFiles) fs.copyFileSync(path.join(ROOT, 'reports', f), path.join(DIST, 'reports', f));
+for (const f of reportFiles) fs.copyFileSync(path.join(ROOT, 'reports', f), path.join(LEDGER, 'reports', f));
 const kb = n => (n / 1024).toFixed(0) + ' KB';
-console.log(`Built dist/index.html (${kb(Buffer.byteLength(standalone))}), dist/artifact.html (${kb(Buffer.byteLength(body))})`);
+console.log(`Built dist/index.html briefing (${kb(Buffer.byteLength(brief))}; ${dod.length} DoW awards, ${dod.filter(c => c.recent).length} in the last 12 months) and dist/ledger/index.html (${kb(Buffer.byteLength(standalone))})`);
 console.log(`${site.contracts.length} contracts · ${site.federal.length} federal awards · ${site.statements.length} statements · ${site.contacts.length} contacts · ${reports.length} reports (${reports.reduce((a, r) => a + r.links, 0)} source links)`);

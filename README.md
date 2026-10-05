@@ -2,7 +2,8 @@
 
 Sourced, searchable record of counter-drone (C-UAS) contracts, a deep dive on the last twelve months of awards, government statements and contacts, and the contracting outlook for Unified Mechanics.
 
-Live: https://jaxbud.github.io/cuas-ledger/
+Investor briefing: https://jaxbud.github.io/cuas-ledger/
+Full research ledger: https://jaxbud.github.io/cuas-ledger/ledger/
 
 ## Build
 
