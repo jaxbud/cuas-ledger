@@ -1,38 +1,35 @@
 /* Layout: a single briefing column read top to bottom in six numbered steps,
    with a slim sticky step bar so a presenter can jump or arrow through. */
 :root {
-  --plane: #f6f6f3;
-  --surface: #fdfdfb;
-  --sunk: #eeede8;
-  --ink: #111214;
-  --ink-2: #4a4b50;
-  --ink-3: #7d7e83;
-  --rule: #e0dfd8;
-  --rule-strong: #c6c5bb;
-  --accent: #2a78d6;
-  --accent-ink: #1c5cab;
-  --accent-wash: #e7f0fb;
-  --yes: #0b8a3e;
-  --no: #b0423a;
-  --part: #a86c00;
-  --bar: #2a78d6;
+  /* Unified Mechanics palette: near-black plane, white type, crimson accent.
+     Dark is the brand default; light is only an explicit toggle. */
+  --plane: #0a0b0e;
+  --surface: #111318;
+  --sunk: #181a20;
+  --ink: #f4f4f2;
+  --ink-2: #a8abb2;
+  --ink-3: #6e727a;
+  --rule: #1f2228;
+  --rule-strong: #30333b;
+  --accent: #c8102e;
+  --accent-ink: #f0465c;
+  --accent-wash: #22090f;
+  --on-accent: #ffffff;
+  --yes: #3ccb6c;
+  --no: #f0465c;
+  --part: #f0b23a;
+  --bar: #c8102e;
   --f-display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --f-ui: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-read: "Source Serif 4", "Iowan Old Style", Georgia, serif;
   --f-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
-  --radius: 8px;
+  --radius: 2px;
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --plane: #0f1011; --surface: #18191a; --sunk: #222326; --ink: #f3f3f1; --ink-2: #c5c5bf; --ink-3: #8e8f93;
-    --rule: #2b2c2e; --rule-strong: #3d3e41; --accent: #3987e5; --accent-ink: #86b6ef; --accent-wash: #16263a;
-    --yes: #3ccb6c; --no: #ef7c74; --part: #f0b23a; --bar: #3987e5; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --plane: #0f1011; --surface: #18191a; --sunk: #222326; --ink: #f3f3f1; --ink-2: #c5c5bf; --ink-3: #8e8f93;
-  --rule: #2b2c2e; --rule-strong: #3d3e41; --accent: #3987e5; --accent-ink: #86b6ef; --accent-wash: #16263a;
-  --yes: #3ccb6c; --no: #ef7c74; --part: #f0b23a; --bar: #3987e5; color-scheme: dark;
+:root[data-theme="light"] {
+  --plane: #f7f7f6; --surface: #ffffff; --sunk: #efefed; --ink: #0a0b0e; --ink-2: #4a4c52; --ink-3: #7a7d84;
+  --rule: #e2e2df; --rule-strong: #c9c9c5; --accent: #c8102e; --accent-ink: #a50d26; --accent-wash: #fbeaed;
+  --yes: #0b8a3e; --no: #b3122c; --part: #a86c00; --bar: #c8102e; color-scheme: light;
 }
 
 * { box-sizing: border-box; }
@@ -62,14 +59,15 @@ button, select, input { font: inherit; color: inherit; }
 }
 .steps a b { font-family: var(--f-mono); font-weight: 500; font-size: 12px; color: var(--ink-3); }
 .steps a:hover { background: var(--sunk); color: var(--ink); }
-.steps a.on { background: var(--ink); color: var(--plane); }
-.steps a.on b { color: var(--plane); opacity: 0.7; }
+.steps a.on { background: var(--accent); color: var(--on-accent); }
+.steps a.on b { color: var(--on-accent); opacity: 0.75; }
 .theme { border: 1px solid var(--rule-strong); background: none; border-radius: 999px; padding: 3px 10px; font-size: 12px; color: var(--ink-2); cursor: pointer; white-space: nowrap; }
 @media (max-width: 720px) { .brand small { display: none; } .theme { display: none; } }
 
 /* cover */
 .cover { padding-block: 56px 40px; border-bottom: 1px solid var(--rule); }
-.kicker { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.cover h1::after { content: ""; display: block; width: min(100%, 520px); height: 2px; margin-top: 18px; background: var(--accent); }
+.kicker { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-ink); }
 .cover h1 { font-family: var(--f-display); font-stretch: 72%; font-weight: 800; font-size: clamp(2.4rem, 6.5vw, 4.6rem); line-height: 0.95; margin: 12px 0 16px; letter-spacing: -0.01em; text-wrap: balance; max-width: 16ch; }
 .cover h1 em { font-style: normal; color: var(--accent); }
 .cover p { font-family: var(--f-read); font-size: 1.2rem; color: var(--ink-2); max-width: 60ch; margin: 0 0 20px; text-wrap: pretty; }
@@ -145,9 +143,9 @@ table { border-collapse: collapse; width: 100%; }
 .foot { font-size: 12px; color: var(--ink-3); margin-top: 8px; }
 
 /* fit */
-.fit-hero { background: var(--ink); color: var(--plane); border-radius: var(--radius); padding: 36px 32px; margin-bottom: 28px; }
+.fit-hero { background: #0a0b0e; color: #f4f4f2; border: 1px solid #1f2228; border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 36px 32px; margin-bottom: 28px; }
 .fit-hero h3 { font-family: var(--f-display); font-stretch: 72%; font-weight: 800; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1; margin: 0 0 14px; text-transform: uppercase; letter-spacing: 0.005em; text-wrap: balance; }
-.fit-hero p { font-family: var(--f-read); font-size: 1.15rem; margin: 0; max-width: 58ch; color: color-mix(in srgb, var(--plane) 85%, var(--ink)); }
+.fit-hero p { font-family: var(--f-read); font-size: 1.15rem; margin: 0; max-width: 58ch; color: #a8abb2; }
 .points { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .point { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
 .point.lead { grid-column: span 3; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; border-color: color-mix(in srgb, var(--accent) 55%, var(--rule)); }
@@ -191,7 +189,7 @@ ol.path .src a { font-size: 12px; margin-right: 10px; }
 .seg { display: inline-flex; border: 1px solid var(--rule-strong); border-radius: 6px; overflow: hidden; }
 .seg button { border: 0; background: var(--surface); padding: 7px 12px; cursor: pointer; font-size: 14px; }
 .seg button + button { border-left: 1px solid var(--rule-strong); }
-.seg button[aria-pressed="true"] { background: var(--ink); color: var(--plane); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
 .count { margin-left: auto; font-family: var(--f-mono); font-size: 12px; color: var(--ink-3); }
 .tracker { min-width: 760px; font-size: 14px; }
 .tracker th, .tracker td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
