@@ -1,35 +1,35 @@
 /* Layout: a single briefing column read top to bottom in six numbered steps,
    with a slim sticky step bar so a presenter can jump or arrow through. */
 :root {
-  /* Unified Mechanics palette: near-black plane, white type, crimson accent.
-     Dark is the brand default; light is only an explicit toggle. */
-  --plane: #0a0b0e;
-  --surface: #111318;
-  --sunk: #181a20;
-  --ink: #f4f4f2;
-  --ink-2: #a8abb2;
-  --ink-3: #6e727a;
-  --rule: #1f2228;
-  --rule-strong: #30333b;
+  /* Unified Mechanics palette: white plane, near-black type, crimson accent.
+     Light is the default; dark is an explicit toggle. */
+  --plane: #ffffff;
+  --surface: #ffffff;
+  --sunk: #f3f3f2;
+  --ink: #0a0b0e;
+  --ink-2: #4a4c52;
+  --ink-3: #75787f;
+  --rule: #e4e4e1;
+  --rule-strong: #cbcbc7;
   --accent: #c8102e;
-  --accent-ink: #f0465c;
-  --accent-wash: #22090f;
+  --accent-ink: #a50d26;
+  --accent-wash: #fbeaed;
   --on-accent: #ffffff;
-  --yes: #3ccb6c;
-  --no: #f0465c;
-  --part: #f0b23a;
+  --yes: #0b8a3e;
+  --no: #b3122c;
+  --part: #a86c00;
   --bar: #c8102e;
   --f-display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --f-ui: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-read: "Source Serif 4", "Iowan Old Style", Georgia, serif;
   --f-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
   --radius: 2px;
-  color-scheme: dark;
+  color-scheme: light;
 }
-:root[data-theme="light"] {
-  --plane: #f7f7f6; --surface: #ffffff; --sunk: #efefed; --ink: #0a0b0e; --ink-2: #4a4c52; --ink-3: #7a7d84;
-  --rule: #e2e2df; --rule-strong: #c9c9c5; --accent: #c8102e; --accent-ink: #a50d26; --accent-wash: #fbeaed;
-  --yes: #0b8a3e; --no: #b3122c; --part: #a86c00; --bar: #c8102e; color-scheme: light;
+:root[data-theme="dark"] {
+  --plane: #0a0b0e; --surface: #111318; --sunk: #181a20; --ink: #f4f4f2; --ink-2: #a8abb2; --ink-3: #6e727a;
+  --rule: #1f2228; --rule-strong: #30333b; --accent: #c8102e; --accent-ink: #f0465c; --accent-wash: #22090f;
+  --yes: #3ccb6c; --no: #f0465c; --part: #f0b23a; --bar: #c8102e; color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -143,9 +143,9 @@ table { border-collapse: collapse; width: 100%; }
 .foot { font-size: 12px; color: var(--ink-3); margin-top: 8px; }
 
 /* fit */
-.fit-hero { background: #0a0b0e; color: #f4f4f2; border: 1px solid #1f2228; border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 36px 32px; margin-bottom: 28px; }
+.fit-hero { background: var(--sunk); color: var(--ink); border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 36px 32px; margin-bottom: 28px; }
 .fit-hero h3 { font-family: var(--f-display); font-stretch: 72%; font-weight: 800; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1; margin: 0 0 14px; text-transform: uppercase; letter-spacing: 0.005em; text-wrap: balance; }
-.fit-hero p { font-family: var(--f-read); font-size: 1.15rem; margin: 0; max-width: 58ch; color: #a8abb2; }
+.fit-hero p { font-family: var(--f-read); font-size: 1.15rem; margin: 0; max-width: 58ch; color: var(--ink-2); }
 .points { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .point { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
 .point.lead { grid-column: span 3; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; border-color: color-mix(in srgb, var(--accent) 55%, var(--rule)); }

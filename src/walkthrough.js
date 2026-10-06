@@ -74,7 +74,7 @@
     var nav = STEPS.map(function (s, i) { return '<a href="#' + s[0] + '" data-step="' + s[0] + '"><b>' + (i + 1) + '</b>' + esc(s[1]) + '</a>'; }).join('');
     var html = '';
     html += '<header class="stepbar"><div class="wrap"><a class="brand" href="#top">Unified <span>Mechanics</span> <small style="font-weight:500;color:var(--ink-3)">· Counter-drone briefing</small></a>' +
-      '<nav class="steps" aria-label="Briefing steps">' + nav + '</nav><button class="theme" id="theme" type="button">Theme: dark</button></div></header>';
+      '<nav class="steps" aria-label="Briefing steps">' + nav + '</nav><button class="theme" id="theme" type="button">Theme: light</button></div></header>';
 
     html += '<main id="top"><div class="wrap">';
     html += '<section class="cover"><div class="kicker">Investor briefing · updated ' + fdate(W.updated) + '</div>' +
@@ -212,10 +212,10 @@
   }
 
   function theme() {
-    var btn = document.getElementById('theme'), cur = 'dark';
-    try { if (localStorage.getItem('um-brief-theme') === 'light') cur = 'light'; } catch (e) { /* storage blocked */ }
+    var btn = document.getElementById('theme'), cur = 'light';
+    try { if (localStorage.getItem('um-brief-theme') === 'dark') cur = 'dark'; } catch (e) { /* storage blocked */ }
     function apply(t) {
-      if (t === 'dark') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', t);
+      if (t === 'light') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', t);
       btn.textContent = 'Theme: ' + t;
     }
     apply(cur);
