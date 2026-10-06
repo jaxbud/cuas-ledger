@@ -198,13 +198,16 @@ const dod = site.contracts
 const services = [...new Set(dod.map(c => c.service))].sort();
 const briefPayload = JSON.stringify({ walk, dod, services, fy: site.stats.federal_by_fy }).replace(/</g, '\\u003c');
 const bcss = fs.readFileSync(path.join(ROOT, 'src', 'walkthrough.css'), 'utf8');
+// The UM wordmark is a transparent mask, inlined so the page stays one file and tinted by --ink in either theme.
+const umLogo = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, 'src', 'um-logo.png')).toString('base64');
+const bcssFull = `:root { --um-logo: url("${umLogo}"); }\n` + bcss;
 const bjs = fs.readFileSync(path.join(ROOT, 'src', 'walkthrough.js'), 'utf8');
 const briefHead = `<title>Unified Mechanics Briefing</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="${FONTS}">
 <style>
-${bcss}
+${bcssFull}
 </style>`;
 const briefMain = `<div id="app"><noscript><p style="padding:24px">This briefing needs JavaScript.</p></noscript></div>
 <script type="application/json" id="brief-data">${briefPayload}</script>

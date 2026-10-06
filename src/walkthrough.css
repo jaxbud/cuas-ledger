@@ -3,9 +3,9 @@
 :root {
   /* Unified Mechanics palette: white plane, near-black type, crimson accent.
      Light is the default; dark is an explicit toggle. */
-  --plane: #ffffff;
+  --plane: #eeeeeb;
   --surface: #ffffff;
-  --sunk: #f3f3f2;
+  --sunk: #f4f4f2;
   --ink: #0a0b0e;
   --ink-2: #4a4c52;
   --ink-3: #75787f;
@@ -45,13 +45,15 @@ button, select, input { font: inherit; color: inherit; }
 /* step bar */
 .stepbar {
   position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30;
-  background: color-mix(in srgb, var(--plane) 92%, transparent);
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
   backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--rule);
+  border-top: 3px solid var(--accent);
+  border-bottom: 1px solid var(--rule-strong);
 }
 .stepbar .wrap { display: flex; align-items: center; gap: 16px; padding-block: 10px; }
-.brand { font-family: var(--f-display); font-stretch: 75%; font-weight: 800; font-size: 17px; letter-spacing: 0.02em; text-transform: uppercase; white-space: nowrap; color: var(--ink); text-decoration: none; }
-.brand span { color: var(--accent); }
+.brand { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; color: var(--ink); text-decoration: none; }
+.brand .logo { display: block; width: 167px; height: 27px; background: var(--ink); -webkit-mask: var(--um-logo) no-repeat left center / contain; mask: var(--um-logo) no-repeat left center / contain; }
+.brand small { font-weight: 500; font-size: 13px; color: var(--ink-3); padding-left: 10px; border-left: 1px solid var(--rule-strong); }
 .steps { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; flex: 1; min-width: 0; }
 .steps a {
   display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
@@ -63,6 +65,14 @@ button, select, input { font: inherit; color: inherit; }
 .steps a.on b { color: var(--on-accent); opacity: 0.75; }
 .theme { border: 1px solid var(--rule-strong); background: none; border-radius: 999px; padding: 3px 10px; font-size: 12px; color: var(--ink-2); cursor: pointer; white-space: nowrap; }
 @media (max-width: 720px) { .brand small { display: none; } .theme { display: none; } }
+
+/* page frame: the briefing reads as a bordered sheet on a soft grey page */
+main > .wrap {
+  background: var(--surface); border: 1px solid var(--rule-strong); border-top: 0;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.04), 0 8px 28px rgb(0 0 0 / 0.05);
+  margin-block: 0 28px; padding-inline: 48px;
+}
+@media (max-width: 720px) { main > .wrap { padding-inline: 16px; border-inline: 0; margin-bottom: 0; } }
 
 /* cover */
 .cover { padding-block: 56px 40px; border-bottom: 1px solid var(--rule); }
